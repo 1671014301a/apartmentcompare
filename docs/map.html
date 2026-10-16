@@ -1,0 +1,446 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>비교파트 지도</title>
+<style>
+  @font-face { font-family: "Pretendard Variable"; font-weight: 45 920; font-display: swap; src: url("fonts/PretendardVariable-subset.woff2") format("woff2"); }
+  html, body { margin: 0; padding: 0; width: 100%; height: 100%; overflow: hidden; background: #eef0f5;
+    font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Noto Sans KR", sans-serif; }
+  /* Naver resets the box's positioning when the map starts, so give it an explicit full-size box. */
+  #map { position: relative; width: 100%; height: 100%; }
+  .notice { position: absolute; inset: 0; z-index: 1; display: grid; place-items: center; padding: 24px; text-align: center; color: #4c5370; font-size: 15px; line-height: 1.6; }
+  .notice b { display: block; color: #171c33; font-size: 17px; margin-bottom: 6px; }
+  .notice small { display: inline-block; margin-top: 8px; color: #80869c; font-size: 12px; }
+  .notice code { background: #fff; padding: 2px 6px; border-radius: 6px; font-size: 13px; }
+
+  /* Leaflet fallback: keep the default UI quiet */
+  .leaflet-container { font: inherit; background: #eef0f5; }
+  .leaflet-div-icon, .bp-icon { background: none !important; border: 0 !important; }
+  .leaflet-control-attribution { font-size: 10px; }
+  .bp-tiles { filter: saturate(.72) brightness(1.03) contrast(.96); }
+  .leaflet-tooltip.gu-label { background: none; border: 0; box-shadow: none; color: #9aa0b6; font: 600 12px/1 "Pretendard Variable", sans-serif; letter-spacing: -0.02em; }
+  .leaflet-tooltip.gu-label::before { display: none; }
+
+  /* Pin: navy house-shaped bubble with the tail tip on the apartment */
+  .pin-wrap { position: relative; width: 34px; height: 40px; cursor: pointer; }
+  .pin { display: block; width: 34px; height: 40px; filter: drop-shadow(0 2px 3px rgba(23, 28, 60, .32)); transform-origin: 17px 40px; transition: transform .12s ease; }
+  .pin-wrap:hover .pin, .pin-wrap.is-active .pin { transform: scale(1.18); }
+  .pin-label { position: absolute; left: 17px; bottom: 46px; transform: translateX(-50%); padding: 7px 13px; border-radius: 999px; background: #fff; box-shadow: 0 4px 14px rgba(23, 28, 60, .16); font-size: 13px; font-weight: 700; color: #171c33; white-space: nowrap; pointer-events: none; opacity: 0; transition: opacity .12s ease; }
+  .pin-wrap:hover .pin-label { opacity: 1; }
+  .pin-wrap.is-active .pin-label { display: none; }
+
+  /* Popup card */
+  .pop-anchor { position: relative; width: 0; height: 0; }
+  .pop-anchor .pop { position: absolute; left: -136px; bottom: 50px; }
+  .pop { position: relative; width: 272px; background: #fff; border-radius: 18px; box-shadow: 0 16px 40px rgba(23, 28, 60, .24); color: #171c33; letter-spacing: -0.01em; cursor: default; }
+  .pop-photo { height: 118px; border-radius: 18px 18px 0 0; overflow: hidden; background: #e9ecf8; }
+  .pop-photo svg, .pop-photo img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .pop-x { position: absolute; top: 10px; right: 10px; z-index: 2; width: 30px; height: 30px; border: 0; border-radius: 50%; background: rgba(255,255,255,.95); color: #28316b; font-size: 18px; line-height: 30px; cursor: pointer; box-shadow: 0 2px 8px rgba(23,28,60,.2); }
+  .pop-body { padding: 14px 16px 16px; }
+  .pop-body small { display: block; color: #80869c; font-size: 12px; font-weight: 650; }
+  .pop-body strong { display: block; margin-top: 1px; font-size: 18px; font-weight: 800; letter-spacing: -0.035em; line-height: 1.3; }
+  .pop-tags { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 8px; }
+  .pop-tags span { padding: 3px 8px; border-radius: 999px; background: #eef0fa; color: #3a4486; font-size: 11px; font-weight: 700; }
+  .pop-stats { display: grid; grid-template-columns: repeat(4, 1fr); margin: 12px 0 14px; padding: 0; border-top: 1px solid #eceef4; border-bottom: 1px solid #eceef4; }
+  .pop-stats div { padding: 9px 0; text-align: center; }
+  .pop-stats div + div { border-left: 1px solid #eceef4; }
+  .pop-stats dt { font-size: 11px; color: #80869c; }
+  .pop-stats dd { margin: 1px 0 0; font-size: 13px; font-weight: 750; font-variant-numeric: tabular-nums; white-space: nowrap; }
+  .pop-actions { display: grid; grid-template-columns: 1fr auto; gap: 6px; }
+  .pop-actions button { min-height: 40px; border-radius: 12px; border: 0; font: inherit; font-size: 14px; font-weight: 700; cursor: pointer; }
+  .pop-open { background: #28316b; color: #fff; }
+  .pop-open:hover { background: #3a4486; }
+  .pop-cmp { padding: 0 12px; background: #eef0fa; color: #28316b; }
+  .pop-cmp.is-on { background: #5c68a6; color: #fff; }
+  .pop-tail { position: absolute; z-index: -1; left: 50%; bottom: -7px; width: 14px; height: 14px; margin-left: -7px; background: #fff; transform: rotate(45deg); box-shadow: 4px 4px 8px rgba(23,28,60,.08); }
+
+  /* Area bubble: "N 아파트" navy pill (as in the reference capture) */
+  .cluster { display: inline-block; padding: 11px 20px; border-radius: 999px; background: #28316b; color: #fff; font-weight: 800; font-size: 16px; letter-spacing: -0.01em; border: 3px solid #fff; box-shadow: 0 4px 12px rgba(23, 28, 60, .32); cursor: pointer; white-space: nowrap; font-variant-numeric: tabular-nums; transform: translate(-50%, -50%); transition: box-shadow .12s ease, background .12s ease; }
+  .cluster:hover { background: #3a4486; box-shadow: 0 0 0 6px rgba(40, 49, 107, .18), 0 4px 12px rgba(23, 28, 60, .32); }
+  .cluster small { font-weight: 650; opacity: .72; margin-left: 4px; font-size: 13px; }
+</style>
+</head>
+<body>
+<div id="map"><div class="notice" id="map-loading"><div><b>지도를 불러오는 중…</b>잠시만 기다려 주세요.</div></div></div>
+<script src="js/config.js"></script>
+<script src="js/data/apartments.js"></script>
+<script>
+  // Naver's loader must be a normal <script> tag written while the page is parsing;
+  // adding it later makes the map silently never start.
+  (function () {
+    var C = window.BIGYO_CONFIG || {};
+    if (C.naverMapClientId && C.mapEngine !== 'leaflet') {
+      document.write('<script src="https://openapi.map.naver.com/openapi/v3/maps.js?' + (C.naverMapKeyParam || 'ncpKeyId') + '=' + encodeURIComponent(C.naverMapClientId) + '"><\/script>');
+    }
+  })();
+</script>
+<script>
+(function () {
+  var CONFIG = window.BIGYO_CONFIG || {};
+  var ALL = ((window.BIGYO_DATA && window.BIGYO_DATA.apartments) || []).filter(function (a) { return a.lat && a.lng; });
+  var embedded = window.parent !== window;
+  // Either ALL area bubbles or ALL individual pins — never both.
+  var PIN_ZOOM = 15;
+  var E, started = false, popupMarker = null, popupId = null, markers = [], pinById = {}, data = ALL.slice(), compared = [];
+  var params = new URLSearchParams(location.search);
+  var focusArea = params.get('area');
+
+  function notice(title, body) {
+    document.getElementById('map').innerHTML = '<div class="notice"><div><b>' + title + '</b>' + body + '</div></div>';
+  }
+  function esc(s) { return String(s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
+
+  function open(id) {
+    if (embedded) window.parent.postMessage({ source: 'bigyo-map', type: 'open', id: id }, '*');
+    else location.href = 'index.html#/apt/' + encodeURIComponent(id);
+  }
+
+  /* ---------- two map engines behind one small interface ---------- */
+  function naverEngine() {
+    var nm = naver.maps, map, iw = null;
+    return {
+      name: 'naver',
+      init: function (el, lat, lng, z) {
+        map = new nm.Map(el, { center: new nm.LatLng(lat, lng), zoom: z, zoomControl: false, scaleControl: false, mapDataControl: false });
+        window.addEventListener('resize', function () { map.autoResize(); });
+      },
+      marker: function (lat, lng, el, ax, ay, onClick, z) {
+        var m = new nm.Marker({ position: new nm.LatLng(lat, lng), map: map, zIndex: z || 0, icon: { content: el, anchor: new nm.Point(ax, ay) } });
+        if (onClick) nm.Event.addListener(m, 'click', onClick);
+        return m;
+      },
+      remove: function (m) { m.setMap(null); },
+      zoom: function () { return map.getZoom(); },
+      setView: function (lat, lng, z) { map.setCenter(new nm.LatLng(lat, lng)); if (z != null) map.setZoom(z, true); },
+      fit: function (pts) {
+        var b = new nm.LatLngBounds();
+        pts.forEach(function (p) { b.extend(new nm.LatLng(p[0], p[1])); });
+        try { map.fitBounds(b, { top: 70, right: 50, bottom: 70, left: 50 }); } catch (e) { map.fitBounds(b); }
+      },
+      setZoom: function (z) { map.setZoom(Math.round(z), false); },
+      onZoom: function (fn) { nm.Event.addListener(map, 'zoom_changed', fn); },
+      // 원본 사이트와 같은 네이버 InfoWindow 팝업 (핀 위에 뜨고, 지도는 움직이지 않아요)
+      openPopup: function (el, pin) {
+        if (!iw) iw = new nm.InfoWindow({ borderWidth: 0, backgroundColor: 'transparent', disableAnchor: true, pixelOffset: new nm.Point(0, -48) });
+        iw.setContent(el);
+        iw.open(map, pin);
+        return true;
+      },
+      closePopup: function () { if (iw) iw.close(); },
+      onMapClick: function (fn) { nm.Event.addListener(map, 'click', fn); },
+      reveal: function (lat, lng, top) {
+        try {
+          var p = map.getProjection().fromCoordToOffset(new nm.LatLng(lat, lng)), c = map.getProjection().fromCoordToOffset(map.getCenter());
+          var size = map.getSize(), y = p.y - c.y + size.height / 2, x = p.x - c.x + size.width / 2, dx = 0, dy = 0;
+          if (y < top) dy = y - top; if (x < 150) dx = x - 150; else if (x > size.width - 150) dx = x - size.width + 150;
+          if (dx || dy) map.panBy(new nm.Point(dx, dy));
+        } catch (e) { /* keep the map where it is */ }
+      }
+    };
+  }
+  function leafletEngine() {
+    var map;
+    return {
+      name: 'leaflet',
+      init: function (el, lat, lng, z) {
+        el.innerHTML = '';
+        map = L.map(el, { zoomControl: false, attributionControl: true, zoomSnap: 0.5, zoomDelta: 1 }).setView([lat, lng], z);
+        if (CONFIG.tileUrl !== 'none') {
+          L.tileLayer(CONFIG.tileUrl || 'https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 19, minZoom: 10, className: 'bp-tiles',
+            attribution: CONFIG.tileAttribution || '&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> contributors'
+          }).addTo(map);
+        }
+        // 지도 이미지를 못 쓰는 곳(미리보기 등)에서는 서울 구 경계를 바탕 지도로 그려요
+        if (CONFIG.basemap) {
+          map.createPane('guPane').style.zIndex = 350;
+          map.createPane('guLabelPane').style.zIndex = 360;
+          map.getPane('guLabelPane').style.pointerEvents = 'none';
+          fetch(CONFIG.basemap).then(function (r) { return r.json(); }).then(function (gj) {
+            L.geoJSON(gj, {
+              pane: 'guPane',
+              style: { color: '#b9bfd6', weight: 1.2, fillColor: '#ffffff', fillOpacity: .92 },
+              interactive: false,
+              onEachFeature: function (f, layer) {
+                layer.bindTooltip(f.properties.name, { permanent: true, direction: 'center', className: 'gu-label', pane: 'guLabelPane' });
+              }
+            }).addTo(map).bringToBack();
+            map.attributionControl.addAttribution('행정구역 경계 © 통계청(KOSTAT)');
+          }).catch(function () { /* keep the plain background */ });
+        }
+        L.control.zoom({ position: 'bottomright' }).addTo(map);
+        map.attributionControl.setPrefix(false);
+      },
+      marker: function (lat, lng, el, ax, ay, onClick, z) {
+        var m = L.marker([lat, lng], { icon: L.divIcon({ html: el, className: 'bp-icon', iconSize: null, iconAnchor: [ax, ay] }), zIndexOffset: z || 0, keyboard: false });
+        if (onClick) m.on('click', onClick);
+        m.addTo(map);
+        return m;
+      },
+      remove: function (m) { m.remove(); },
+      zoom: function () { return map.getZoom(); },
+      setView: function (lat, lng, z) { map.setView([lat, lng], z == null ? map.getZoom() : z); },
+      fit: function (pts) { map.fitBounds(pts, { paddingTopLeft: [80, 70], paddingBottomRight: [80, 70], animate: false }); },
+      reveal: function (lat, lng, top) {
+        var p = map.latLngToContainerPoint([lat, lng]), size = map.getSize(), dx = 0, dy = 0;
+        if (p.y < top) dy = p.y - top; else if (p.y > size.y - 40) dy = p.y - size.y + 40;
+        if (p.x < 150) dx = p.x - 150; else if (p.x > size.x - 150) dx = p.x - size.x + 150;
+        if (dx || dy) map.panBy([dx, dy]);
+      },
+      setZoom: function (z) { map.setZoom(z, { animate: false }); },
+      onZoom: function (fn) { map.on('zoomend', fn); },
+      onMapClick: function (fn) { map.on('click', fn); }
+    };
+  }
+
+  /* ---------- markers ---------- */
+  var PIN_SVG = '<svg class="pin" viewBox="0 0 34 40" aria-hidden="true"><path d="M17 1.5 32 13v17a3 3 0 0 1-3 3H21l-4 5.5-4-5.5H5a3 3 0 0 1-3-3V13Z" fill="#28316b" stroke="#fff" stroke-width="2" stroke-linejoin="round"/>' +
+    '<path d="M11 28V22M15.5 28V18.5M20 28V15.5M24.5 28V20" stroke="#d3dcf3" stroke-width="2.6" stroke-linecap="round"/></svg>';
+  function el(html) { var d = document.createElement('div'); d.innerHTML = html; return d.firstChild; }
+  function pinEl(a) { return el('<div class="pin-wrap" data-id="' + esc(a.id) + '">' + PIN_SVG + '<span class="pin-label">' + esc(a.name) + '</span></div>'); }
+
+  function markActive(id) {
+    document.querySelectorAll('.pin-wrap.is-active').forEach(function (n) { n.classList.remove('is-active'); });
+    if (id) { var n = document.querySelector('.pin-wrap[data-id="' + CSS.escape(id) + '"]'); if (n) n.classList.add('is-active'); }
+  }
+  function closePopup() { if (popupMarker) E.remove(popupMarker); if (E && E.closePopup) E.closePopup(); popupMarker = null; popupId = null; markActive(null); }
+
+  function popupEl(a) {
+    var box = document.createElement('div');
+    box.className = 'pop';
+    var on = compared.indexOf(a.id) >= 0;
+    var tags = (a.keywords || []).slice(0, 4);
+    box.innerHTML =
+      '<button type="button" class="pop-x" aria-label="닫기">×</button>' +
+      '<div class="pop-photo">' + (a.image ? '<img src="' + esc(a.image) + '" alt="">' : (window.BP_ART ? window.BP_ART(a) : '')) + '</div>' +
+      '<div class="pop-body"><small>' + esc(a.dong || '') + (a.address ? ' · ' + esc(a.address.replace(/^서울(특별시)?\s*/, '')) : '') + '</small><strong>' + esc(a.name) + '</strong>' +
+        (tags.length ? '<div class="pop-tags">' + tags.map(function (t) { return '<span>' + esc(t) + '</span>'; }).join('') + '</div>' : '') +
+        '<dl class="pop-stats">' +
+          '<div><dt>세대수</dt><dd>' + (a.households ? a.households.toLocaleString('ko-KR') : '-') + '</dd></div>' +
+          '<div><dt>입주</dt><dd>' + (a.approvedYear || '-') + '</dd></div>' +
+          '<div><dt>역 도보</dt><dd>' + (a.subwayMin != null ? a.subwayMin + '분' : '-') + '</dd></div>' +
+          '<div><dt>추천점수</dt><dd>' + (a.valueScore != null ? a.valueScore : '-') + '</dd></div>' +
+        '</dl>' +
+        '<div class="pop-actions"><button type="button" class="pop-open">상세 정보 보기</button>' +
+          (embedded ? '<button type="button" class="pop-cmp' + (on ? ' is-on' : '') + '">' + (on ? '✓ 담김' : '+ 비교') + '</button>' : '') +
+        '</div>' +
+      '</div><span class="pop-tail"></span>';
+    var img = box.querySelector('.pop-photo img');
+    if (img) img.onerror = function () { img.remove(); };
+    ['click', 'mousedown', 'dblclick', 'touchstart', 'wheel', 'pointerdown'].forEach(function (t) { box.addEventListener(t, function (e) { e.stopPropagation(); }); });
+    box.querySelector('.pop-x').onclick = function () { closePopup(); };
+    box.querySelector('.pop-open').onclick = function () { open(a.id); };
+    var cmp = box.querySelector('.pop-cmp');
+    if (cmp) cmp.onclick = function () { window.parent.postMessage({ source: 'bigyo-map', type: 'compare', id: a.id }, '*'); };
+    return box;
+  }
+
+  function showPopup(a) {
+    closePopup();
+    popupId = a.id;
+    var box = popupEl(a);
+    if (E.openPopup && pinById[a.id]) {
+      E.openPopup(box, pinById[a.id]);
+    } else {
+      var holder = document.createElement('div');
+      holder.className = 'pop-anchor';
+      holder.appendChild(box);
+      popupMarker = E.marker(a.lat, a.lng, holder, 0, 0, null, 2000);
+      E.reveal(a.lat, a.lng, (box.offsetHeight || 330) + 70);
+    }
+    markActive(a.id);
+  }
+
+  function clear() { markers.forEach(function (m) { E.remove(m); }); markers = []; pinById = {}; }
+
+  // Web-Mercator pixel position of an apartment at a zoom level
+  function worldPx(a, z) {
+    var scale = 256 * Math.pow(2, z), sin = Math.sin(a.lat * Math.PI / 180);
+    return { x: (a.lng + 180) / 360 * scale, y: (0.5 - Math.log((1 + sin) / (1 - sin)) / (4 * Math.PI)) * scale };
+  }
+  // Pins show from the first zoom level where at most 15% of pins overlap.
+  function findPinZoom(list) {
+    for (var z = 13; z <= 18; z++) {
+      var pts = list.map(function (a) { return worldPx(a, z); }), crowded = 0;
+      pts.forEach(function (p, i) {
+        for (var j = 0; j < pts.length; j++) {
+          if (j !== i && Math.abs(p.x - pts[j].x) < 24 && Math.abs(p.y - pts[j].y) < 24) { crowded++; break; }
+        }
+      });
+      if (crowded <= list.length * 0.15) return Math.max(z, 14);
+    }
+    return 15;
+  }
+
+  function draw() {
+    clear();
+    if (!data.length) { closePopup(); return; }
+
+    if (E.zoom() < PIN_ZOOM) {
+      // zoomed out: one "N 아파트" bubble per area, no pins
+      closePopup();
+      var groups = {};
+      data.forEach(function (a) { (groups[a.dong || ''] = groups[a.dong || ''] || []).push(a); });
+      // areas whose bubbles would overlap at this zoom are shown as one bubble
+      var z = E.zoom(), bubbles = [];
+      Object.keys(groups).sort(function (x, y) { return groups[y].length - groups[x].length; }).forEach(function (area) {
+        var g = groups[area], lat = 0, lng = 0;
+        g.forEach(function (a) { lat += a.lat; lng += a.lng; });
+        var c = { lat: lat / g.length, lng: lng / g.length };
+        var p = worldPx(c, z);
+        var hit = bubbles.filter(function (b) { return Math.abs(b.p.x - p.x) < 118 && Math.abs(b.p.y - p.y) < 50; })[0];
+        if (hit) { hit.areas.push(area); hit.list = hit.list.concat(g); }
+        else bubbles.push({ p: p, areas: [area], list: g.slice() });
+      });
+      bubbles.forEach(function (b) {
+        var lat = 0, lng = 0;
+        b.list.forEach(function (a) { lat += a.lat; lng += a.lng; });
+        lat /= b.list.length; lng /= b.list.length;
+        var node = el('<div class="cluster" title="' + esc(b.areas.join(', ')) + ' ' + b.list.length + '개 단지">' + b.list.length + ' 아파트</div>');
+        markers.push(E.marker(lat, lng, node, 0, 0, function () {
+          var pts = b.list.map(function (a) { return [a.lat, a.lng]; });
+          if (b.areas.length > 1) { E.fit(pts); if (E.zoom() <= z) E.setView(lat, lng, z + 1); }
+          else if (pts.length > 1) { E.fit(pts); if (E.zoom() < PIN_ZOOM) E.setZoom(PIN_ZOOM); }
+          else E.setView(lat, lng, PIN_ZOOM);
+          draw();
+        }, 10));
+      });
+      return;
+    }
+
+    // zoomed in: every apartment as its own pin, no bubbles
+    data.forEach(function (a) {
+      var m = E.marker(a.lat, a.lng, pinEl(a), 17, 40, function () { showPopup(a); }, 100);
+      markers.push(m);
+      pinById[a.id] = m;
+    });
+    if (popupId) {
+      var still = ALL.filter(function (x) { return x.id === popupId; })[0];
+      if (pinById[popupId] && still) { if (E.openPopup) showPopup(still); else markActive(popupId); }
+      else closePopup();
+    }
+  }
+
+  function fit(list) {
+    if (!list.length) return;
+    E.fit(list.map(function (a) { return [a.lat, a.lng]; }));
+    if (E.zoom() > 16) E.setZoom(16);
+  }
+
+  // Filters from the page that embeds this map
+  window.addEventListener('message', function (e) {
+    var msg = e.data || {};
+    if (msg.source !== 'bigyo-app') return;
+    if (msg.type === 'compare-state') {
+      compared = msg.ids || [];
+      var btn = document.querySelector('.pop-cmp');
+      if (btn && popupId) { var on = compared.indexOf(popupId) >= 0; btn.classList.toggle('is-on', on); btn.textContent = on ? '✓ 담김' : '+ 비교'; }
+      return;
+    }
+    if (!started) return;
+    if (msg.type === 'filter') {
+      var keys = msg.amenities || [];
+      data = ALL.filter(function (a) {
+        return (!msg.area || a.dong === msg.area) && keys.every(function (k) { return a[k] === true; });
+      });
+      if (msg.fit) fit(data);
+      draw();
+      window.parent.postMessage({ source: 'bigyo-map', type: 'count', count: data.length }, '*');
+    }
+    if (msg.type === 'focus') {
+      var a = ALL.filter(function (x) { return x.id === msg.id; })[0];
+      if (!a) return;
+      if (data.indexOf(a) < 0) data.push(a);
+      E.setView(a.lat, a.lng, Math.max(PIN_ZOOM + 1, E.zoom()));
+      draw();
+      showPopup(a);
+    }
+  });
+
+  function start(engine) {
+    if (started) return;
+    started = true;
+    try {
+      E = engine;
+      var holder = document.getElementById('map');
+      var loading = document.getElementById('map-loading');
+      if (loading) loading.remove();
+      holder.innerHTML = '';
+      var box = document.createElement('div');
+      box.style.cssText = 'position:absolute;inset:0;width:100%;height:100%';
+      holder.appendChild(box);
+      PIN_ZOOM = findPinZoom(ALL);
+      E.init(box, 37.545, 126.99, 12);
+      E.onZoom(draw);
+      E.onMapClick(function () { closePopup(); });
+
+      // Start zoomed out on every apartment (or one area if the page asks for it)
+      var first = focusArea ? ALL.filter(function (a) { return a.dong === focusArea; }) : ALL;
+      fit(first.length ? first : ALL);
+      if (!focusArea && E.zoom() > 12) E.setZoom(12);
+      if (!focusArea && E.zoom() < 11) E.setZoom(E.name === 'naver' ? 11 : 10.5);
+      draw();
+      if (embedded) window.parent.postMessage({ source: 'bigyo-map', type: 'ready', engine: E.name }, '*');
+    } catch (err) {
+      notice('지도를 그리는 중 문제가 생겼어요', esc(String(err && err.message || err)) + '<br><small>코드: DRAW</small>');
+    }
+  }
+
+  // OpenStreetMap(Leaflet) 지도는 config.js 에서 mapEngine: "leaflet" 으로 정했을 때만 써요 (미리보기 등).
+  function useLeaflet() {
+    if (started) return;
+    var css = document.createElement('link');
+    css.rel = 'stylesheet';
+    css.href = 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css';
+    document.head.appendChild(css);
+    var s = document.createElement('script');
+    s.src = 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js';
+    s.onload = function () { start(leafletEngine()); };
+    s.onerror = function () { notice('지도를 불러올 수 없어요', '인터넷 연결을 확인하고 새로고침해 보세요.<br><small>코드: NO_LEAFLET</small>'); };
+    document.head.appendChild(s);
+  }
+  if (CONFIG.mapEngine === 'leaflet') {
+    useLeaflet();
+    return;
+  }
+
+  // 네이버 지도 (원본 사이트와 같은 방식)
+  window.navermap_authFailure = function () {
+    notice('지도 인증에 실패했어요', 'NAVER Cloud 콘솔에서 이 주소(<code>' + esc(location.origin) + '</code>)를<br>Web 서비스 URL로 등록해 주세요.<br><small>코드: AUTH</small>');
+  };
+  if (!CONFIG.naverMapClientId) {
+    notice('지도를 불러올 수 없어요', '<code>js/config.js</code>에 네이버 지도 Client ID를 넣어 주세요.');
+    return;
+  }
+  var tries = 0;
+  (function waitForNaver() {
+    if (started) return;
+    if (window.naver && naver.maps && naver.maps.Map && naver.maps.LatLng) return start(naverEngine());
+    if (++tries > 80) {
+      var code = !window.naver ? 'NO_SCRIPT' : !naver.maps ? 'NO_MAPS' : 'NO_MAP_CLASS';
+      return notice('지도를 불러올 수 없어요', '네이버 지도가 응답하지 않아요. 광고 차단 확장 프로그램을 끄거나 새로고침해 보세요.<br><small>코드: ' + code + '</small>');
+    }
+    setTimeout(waitForNaver, 100);
+  })();
+})();
+</script>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><defs><pattern id="bp-win" width="12" height="14" patternUnits="userSpaceOnUse"><rect x="2" y="3" width="6" height="7" rx="1" fill="#fff" fill-opacity=".5"/></pattern></defs></svg>
+<script>
+  // 사이트 카드와 같은 밤 풍경 그림 (단지 사진이 없을 때)
+  window.BP_ART = function (a) {
+    function hash(str) { var h = 2166136261; for (var i = 0; i < str.length; i++) { h ^= str.charCodeAt(i); h = Math.imul(h, 16777619); } return h >>> 0; }
+    function rng(seed) { return function () { seed = (Math.imul(seed, 1664525) + 1013904223) >>> 0; return seed / 4294967296; }; }
+    var id = String(a.id || a.name), r = rng(hash(id)), hue = 216 + Math.round(r() * 18), gid = 'bpg-' + hash(id).toString(36), t = '', x = -12;
+    while (x < 400) {
+      var w = 38 + Math.round(r() * 34), h = 110 + Math.round(r() * 140), o = (0.1 + r() * 0.14).toFixed(2);
+      t += '<rect x="' + x + '" y="' + (300 - h) + '" width="' + w + '" height="' + h + '" fill="#fff" fill-opacity="' + o + '"/>' +
+           '<rect x="' + (x + 6) + '" y="' + (310 - h) + '" width="' + (w - 12) + '" height="' + (h - 10) + '" fill="url(#bp-win)"/>';
+      x += w + 6 + Math.round(r() * 12);
+    }
+    return '<svg viewBox="0 0 400 300" preserveAspectRatio="xMidYMax slice" aria-hidden="true"><defs><linearGradient id="' + gid + '" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="hsl(' + hue + ',36%,54%)"/><stop offset="1" stop-color="hsl(' + hue + ',42%,26%)"/></linearGradient></defs><rect width="400" height="300" fill="url(#' + gid + ')"/>' + t + '</svg>';
+  };
+</script>
+</body>
+</html>

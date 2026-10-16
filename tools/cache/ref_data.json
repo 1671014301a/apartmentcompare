@@ -1,0 +1,5693 @@
+[
+{
+"id": "0c224bf",
+"name": "DMC 센트럴 아이파크",
+"area": "가재울뉴타운",
+"areas": [
+"가재울뉴타운"
+],
+"address": "서울 서대문구 증가로 150 남가좌동 388",
+"households": 1061,
+"bcr": 18,
+"far": 233,
+"moveIn": "2018-12",
+"priceMin": 10.8,
+"priceMax": 16.3,
+"facilities": [
+"수영장",
+"헬스장",
+"놀이터",
+"북카페",
+"노인정",
+"도서관",
+"골프장",
+"배드민턴장",
+"야외 운동시설"
+],
+"keywords": [
+"교통",
+"생활편의",
+"커뮤니티",
+"대단지"
+],
+"link": "https://realty.daangn.com/complexes/10896658",
+"photo": ""
+},
+{
+"id": "2665822",
+"name": "DMC 에코자이",
+"area": "가재울뉴타운",
+"areas": [
+"가재울뉴타운"
+],
+"address": "서울 서대문구 거북골로 84 남가좌동 389",
+"households": 1047,
+"bcr": 21,
+"far": 252,
+"moveIn": "2019-12",
+"priceMin": 11.6,
+"priceMax": 15.6,
+"facilities": [
+"헬스장",
+"놀이터",
+"북카페",
+"노인정",
+"도서관",
+"골프장",
+"GX룸",
+"배드민턴장",
+"야외 운동시설"
+],
+"keywords": [
+"교통",
+"생활편의",
+"신축",
+"가족친화"
+],
+"link": "https://realty.daangn.com/complexes/10896739",
+"photo": ""
+},
+{
+"id": "b27c63e",
+"name": "DMC 두산위브",
+"area": "가재울뉴타운",
+"areas": [
+"가재울뉴타운"
+],
+"address": "서울 서대문구 증가로 200-8 북가좌동 459",
+"households": 235,
+"bcr": 19,
+"far": 237,
+"moveIn": "2007-02",
+"facilities": [
+"헬스장",
+"놀이터",
+"노인정",
+"골프장"
+],
+"keywords": [
+"생활편의",
+"가족친화",
+"교통"
+],
+"link": "https://realty.daangn.com/complexes/10899427",
+"photo": ""
+},
+{
+"id": "a27ee22",
+"name": "DMC 금호리첸시아",
+"area": "가재울뉴타운",
+"areas": [
+"가재울뉴타운"
+],
+"address": "서울 서대문구 수색로2길 39 남가좌동 396",
+"households": 450,
+"bcr": 22,
+"far": 475,
+"moveIn": "2022-07",
+"facilities": [
+"헬스장",
+"놀이터",
+"노인정",
+"도서관",
+"야외 운동시설"
+],
+"keywords": [
+"생활편의",
+"가족친화",
+"교통"
+],
+"link": "https://realty.daangn.com/complexes/10895605",
+"photo": ""
+},
+{
+"id": "1742367",
+"name": "DMC 가재울아이파크",
+"area": "가재울뉴타운",
+"areas": [
+"가재울뉴타운"
+],
+"address": "서울 서대문구 수색로4나길 11 남가좌동 289-54",
+"households": 283,
+"bcr": 58,
+"far": 399,
+"moveIn": "2025-12",
+"facilities": [
+"헬스장",
+"놀이터",
+"북카페",
+"노인정",
+"골프장",
+"야외 운동시설"
+],
+"keywords": [
+"생활편의",
+"가족친화",
+"공원",
+"브랜드단지"
+],
+"link": "https://realty.daangn.com/complexes/20832076",
+"photo": ""
+},
+{
+"id": "6ece3d6",
+"name": "래미안남가좌 2차",
+"area": "가재울뉴타운",
+"areas": [
+"가재울뉴타운"
+],
+"address": "서울 서대문구 수색로6길 43 남가좌동 379",
+"households": 503,
+"bcr": 19,
+"far": 209,
+"moveIn": "2005-10",
+"facilities": [
+"수영장",
+"헬스장",
+"놀이터",
+"노인정",
+"골프장",
+"사우나",
+"배드민턴장",
+"농구장",
+"야외 운동시설"
+],
+"keywords": [
+"생활편의",
+"가족친화",
+"커뮤니티",
+"브랜드단지"
+],
+"link": "https://realty.daangn.com/complexes/10895592",
+"photo": ""
+},
+{
+"id": "eb4229a",
+"name": "남가좌 현대",
+"area": "가재울뉴타운",
+"areas": [
+"가재울뉴타운"
+],
+"address": "서울 서대문구 가재울로 45 남가좌동 376",
+"households": 1155,
+"bcr": 25,
+"far": 258,
+"moveIn": "1999-05",
+"facilities": [
+"헬스장",
+"놀이터",
+"노인정",
+"야외 운동시설"
+],
+"keywords": [
+"생활편의",
+"가족친화",
+"교통"
+],
+"link": "https://realty.daangn.com/complexes/20826728",
+"photo": ""
+},
+{
+"id": "a349e0d",
+"name": "래미안 루센티아",
+"area": "가재울뉴타운",
+"areas": [
+"가재울뉴타운"
+],
+"address": "서울 서대문구 거북골로 100 남가좌동 390",
+"households": 997,
+"bcr": 20,
+"far": 234,
+"moveIn": "2020-02",
+"facilities": [
+"헬스장",
+"놀이터",
+"북카페",
+"노인정",
+"골프장",
+"사우나",
+"GX룸",
+"입주민회의실",
+"야외 운동시설"
+],
+"keywords": [
+"생활편의",
+"가족친화",
+"커뮤니티",
+"브랜드단지"
+],
+"link": "https://realty.daangn.com/complexes/10896737",
+"photo": ""
+},
+{
+"id": "a2083b3",
+"name": "DMC 래미안 클라시스",
+"area": "가재울뉴타운",
+"areas": [
+"가재울뉴타운"
+],
+"address": "서울 서대문구 증가로 191 남가좌동 377",
+"households": 1114,
+"bcr": 22,
+"far": 289,
+"moveIn": "2000-12",
+"facilities": [
+"수영장",
+"헬스장",
+"놀이터",
+"북카페",
+"사우나",
+"야외 운동시설"
+],
+"keywords": [
+"생활편의",
+"가족친화",
+"커뮤니티",
+"브랜드단지"
+],
+"link": "https://realty.daangn.com/complexes/20826729",
+"photo": ""
+},
+{
+"id": "11a04e0",
+"name": "DMC 래미안 e편한세상 1단지",
+"area": "가재울뉴타운",
+"areas": [
+"가재울뉴타운"
+],
+"address": "서울 서대문구 수색로 100 북가좌동 481",
+"households": 3293,
+"bcr": 19,
+"far": 229,
+"moveIn": "2012-10",
+"facilities": [
+"헬스장",
+"놀이터",
+"북카페",
+"노인정",
+"도서관",
+"골프장",
+"사우나",
+"GX룸",
+"키즈카페",
+"입주민회의실",
+"배드민턴장",
+"농구장",
+"야외 운동시설"
+],
+"keywords": [
+"교통",
+"생활편의",
+"가족친화",
+"대단지"
+],
+"link": "https://realty.daangn.com/complexes/10899711",
+"photo": ""
+},
+{
+"id": "acab9a9",
+"name": "DMC 래미안 e편한세상 2단지",
+"area": "가재울뉴타운",
+"areas": [
+"가재울뉴타운"
+],
+"address": "서울 서대문구 수색로 100 북가좌동 481",
+"households": 3293,
+"bcr": 19,
+"far": 229,
+"moveIn": "2012-10",
+"facilities": [
+"헬스장",
+"놀이터",
+"북카페",
+"노인정",
+"도서관",
+"골프장",
+"사우나",
+"GX룸",
+"키즈카페",
+"입주민회의실",
+"배드민턴장",
+"농구장",
+"야외 운동시설"
+],
+"keywords": [
+"교통",
+"생활편의",
+"가족친화",
+"대단지"
+],
+"link": "https://realty.daangn.com/complexes/10899711",
+"photo": ""
+},
+{
+"id": "816049b",
+"name": "DMC 래미안 e편한세상 3단지",
+"area": "가재울뉴타운",
+"areas": [
+"가재울뉴타운"
+],
+"address": "서울 서대문구 수색로 100 북가좌동 481",
+"households": 3293,
+"bcr": 19,
+"far": 229,
+"moveIn": "2012-10",
+"facilities": [
+"헬스장",
+"놀이터",
+"북카페",
+"노인정",
+"도서관",
+"골프장",
+"사우나",
+"GX룸",
+"키즈카페",
+"입주민회의실",
+"배드민턴장",
+"농구장",
+"카페",
+"야외 운동시설"
+],
+"keywords": [
+"교통",
+"생활편의",
+"가족친화",
+"대단지"
+],
+"link": "https://realty.daangn.com/complexes/10899711",
+"photo": ""
+},
+{
+"id": "5201f3d",
+"name": "DMC 파크뷰자이 1단지",
+"area": "가재울뉴타운",
+"areas": [
+"가재울뉴타운"
+],
+"address": "서울 서대문구 가재울미래로 2 남가좌동 385",
+"households": 4300,
+"bcr": 19,
+"far": 233,
+"moveIn": "2015-10",
+"facilities": [
+"수영장",
+"헬스장",
+"놀이터",
+"북카페",
+"노인정",
+"골프장",
+"사우나",
+"GX룸",
+"키즈카페",
+"조식 서비스",
+"배드민턴장",
+"농구장",
+"카페",
+"야외 운동시설"
+],
+"keywords": [
+"대단지",
+"가족친화",
+"커뮤니티",
+"공원"
+],
+"link": "https://realty.daangn.com/complexes/10896583",
+"photo": ""
+},
+{
+"id": "c4ef842",
+"name": "DMC 파크뷰자이 2단지",
+"area": "가재울뉴타운",
+"areas": [
+"가재울뉴타운"
+],
+"address": "서울 서대문구 가재울미래로 2 남가좌동 385",
+"households": 4300,
+"bcr": 19,
+"far": 233,
+"moveIn": "2015-10",
+"facilities": [
+"헬스장",
+"놀이터",
+"북카페",
+"노인정",
+"골프장",
+"사우나",
+"GX룸",
+"농구장",
+"야외 운동시설"
+],
+"keywords": [
+"대단지",
+"가족친화",
+"커뮤니티",
+"공원"
+],
+"link": "https://realty.daangn.com/complexes/10896583",
+"photo": ""
+},
+{
+"id": "2c94107",
+"name": "DMC 파크뷰자이 3단지",
+"area": "가재울뉴타운",
+"areas": [
+"가재울뉴타운"
+],
+"address": "서울 서대문구 가재울미래로 2 남가좌동 385",
+"households": 4300,
+"bcr": 19,
+"far": 233,
+"moveIn": "2015-10",
+"facilities": [
+"놀이터",
+"야외 운동시설"
+],
+"keywords": [
+"대단지",
+"가족친화",
+"커뮤니티",
+"공원"
+],
+"link": "https://realty.daangn.com/complexes/10896583",
+"photo": ""
+},
+{
+"id": "339ef65",
+"name": "북가좌 삼호",
+"area": "가재울뉴타운",
+"areas": [
+"가재울뉴타운"
+],
+"address": "서울 서대문구 거북골로 154 북가좌동 449",
+"households": 616,
+"bcr": 23,
+"far": 294,
+"moveIn": "1996-02",
+"facilities": [
+"놀이터"
+],
+"keywords": [
+"생활편의",
+"가족친화",
+"교통"
+],
+"link": "https://realty.daangn.com/complexes/20826730",
+"photo": ""
+},
+{
+"id": "145915e",
+"name": "DMC 휴먼빌",
+"area": "가재울뉴타운",
+"areas": [
+"가재울뉴타운"
+],
+"address": "서울 서대문구 거북골로18가길 23 북가좌동 456",
+"households": 197,
+"bcr": 29,
+"far": 246,
+"moveIn": "2008-12",
+"facilities": [
+"놀이터"
+],
+"keywords": [
+"생활편의",
+"가족친화",
+"교통"
+],
+"link": "https://realty.daangn.com/complexes/10899134",
+"photo": ""
+},
+{
+"id": "2e8a259",
+"name": "DMC 래미안 e편한세상 4단지",
+"area": "가재울뉴타운",
+"areas": [
+"가재울뉴타운"
+],
+"address": "서울 서대문구 수색로 100 북가좌동 481",
+"households": 3293,
+"bcr": 19,
+"far": 229,
+"moveIn": "2012-10",
+"facilities": [
+"놀이터",
+"야외 운동시설"
+],
+"keywords": [
+"교통",
+"생활편의",
+"가족친화",
+"대단지"
+],
+"link": "https://realty.daangn.com/complexes/10899711",
+"photo": ""
+},
+{
+"id": "3964621",
+"name": "DMC 래미안 e편한세상 5단지",
+"area": "가재울뉴타운",
+"areas": [
+"가재울뉴타운"
+],
+"address": "서울 서대문구 수색로 100 북가좌동 481",
+"households": 3293,
+"bcr": 19,
+"far": 229,
+"moveIn": "2012-10",
+"facilities": [
+"놀이터"
+],
+"keywords": [
+"교통",
+"생활편의",
+"가족친화",
+"대단지"
+],
+"link": "https://realty.daangn.com/complexes/10899711",
+"photo": ""
+},
+{
+"id": "eb4fc21",
+"name": "DMC 파크뷰자이 4단지",
+"area": "가재울뉴타운",
+"areas": [
+"가재울뉴타운"
+],
+"address": "서울 서대문구 가재울미래로 2 남가좌동 385",
+"households": 4300,
+"bcr": 19,
+"far": 233,
+"moveIn": "2015-10",
+"facilities": [
+"놀이터",
+"야외 운동시설"
+],
+"keywords": [
+"대단지",
+"가족친화",
+"커뮤니티",
+"공원"
+],
+"link": "https://realty.daangn.com/complexes/10896583",
+"photo": ""
+},
+{
+"id": "c7bba66",
+"name": "DMC 파크뷰자이 5단지",
+"area": "가재울뉴타운",
+"areas": [
+"가재울뉴타운"
+],
+"address": "서울 서대문구 가재울미래로 2 남가좌동 385",
+"households": 4300,
+"bcr": 19,
+"far": 233,
+"moveIn": "2015-10",
+"facilities": [
+"놀이터"
+],
+"keywords": [
+"대단지",
+"가족친화",
+"커뮤니티",
+"공원"
+],
+"link": "https://realty.daangn.com/complexes/10896583",
+"photo": ""
+},
+{
+"id": "4e8cd90",
+"name": "DMC 한양",
+"area": "가재울뉴타운",
+"areas": [
+"가재울뉴타운"
+],
+"address": "서울 서대문구 응암로 28 북가좌동 431",
+"households": 660,
+"bcr": 21,
+"far": 223,
+"moveIn": "1987-08",
+"facilities": [
+"놀이터"
+],
+"keywords": [
+"생활편의",
+"가족친화",
+"교통"
+],
+"link": "https://realty.daangn.com/complexes/10899696",
+"photo": ""
+},
+{
+"id": "11e74c0",
+"name": "DMC 아이파크",
+"area": "가재울뉴타운",
+"areas": [
+"가재울뉴타운"
+],
+"address": "서울 서대문구 거북골로14길 32",
+"households": 362,
+"bcr": 22,
+"far": 237,
+"moveIn": "2009-03",
+"facilities": [
+"헬스장",
+"놀이터",
+"도서관",
+"야외 운동시설"
+],
+"keywords": [
+"생활편의",
+"가족친화",
+"공원",
+"브랜드단지"
+],
+"link": "https://realty.daangn.com/complexes/10899302",
+"photo": ""
+},
+{
+"id": "9bf9461",
+"name": "DMC 센트레빌",
+"area": "가재울뉴타운",
+"areas": [
+"가재울뉴타운"
+],
+"address": "서울 서대문구 거북골로 120",
+"households": 473,
+"bcr": 26,
+"far": 233,
+"moveIn": "2009-06",
+"facilities": [
+"헬스장",
+"놀이터",
+"골프장",
+"야외 운동시설"
+],
+"keywords": [
+"생활편의",
+"가족친화",
+"교통"
+],
+"link": "https://realty.daangn.com/complexes/10896734",
+"photo": ""
+},
+{
+"id": "1e04a26",
+"name": "텐즈힐1단지",
+"area": "왕십리",
+"areas": [
+"왕십리"
+],
+"address": "서울 성동구 무학로33",
+"households": 1702,
+"bcr": 21,
+"far": 224,
+"moveIn": "2015-04",
+"facilities": [
+"헬스장",
+"놀이터",
+"북카페",
+"노인정",
+"도서관",
+"골프장",
+"GX룸",
+"키즈카페",
+"카페",
+"야외 운동시설"
+],
+"keywords": [
+"교통",
+"생활편의",
+"상권",
+"대단지"
+],
+"link": "https://realty.daangn.com/complexes/20826883",
+"photo": ""
+},
+{
+"id": "227f209",
+"name": "텐즈힐2단지",
+"area": "왕십리",
+"areas": [
+"왕십리"
+],
+"address": "서울 성동구 마장로 137",
+"households": 1148,
+"bcr": 34,
+"far": 245,
+"moveIn": "2014-06",
+"facilities": [
+"헬스장",
+"놀이터",
+"북카페",
+"노인정",
+"도서관",
+"골프장",
+"GX룸",
+"키즈카페",
+"카페",
+"야외 운동시설"
+],
+"keywords": [
+"교통",
+"생활편의",
+"상권",
+"대단지"
+],
+"link": "https://realty.daangn.com/complexes/20826884",
+"photo": ""
+},
+{
+"id": "3bfa1ea",
+"name": "센트라스",
+"area": "왕십리",
+"areas": [
+"왕십리"
+],
+"address": "서울 성동구 왕십리로 410",
+"households": 2529,
+"bcr": 39,
+"far": 312,
+"moveIn": "2016-11",
+"facilities": [
+"헬스장",
+"놀이터",
+"북카페",
+"노인정",
+"도서관",
+"골프장",
+"GX룸",
+"야외 운동시설"
+],
+"keywords": [
+"교통",
+"생활편의",
+"상권",
+"대단지"
+],
+"link": "https://realty.daangn.com/complexes/11131526",
+"photo": ""
+},
+{
+"id": "5394fa7",
+"name": "청계벽산",
+"area": "왕십리",
+"areas": [
+"왕십리"
+],
+"address": "서울 성동구 무학로 50",
+"households": 1332,
+"hhNote": "임대 510 포함",
+"bcr": 23,
+"far": 267,
+"moveIn": "1996-06",
+"facilities": [
+"놀이터",
+"야외 운동시설"
+],
+"keywords": [
+"교통",
+"생활편의",
+"상권"
+],
+"link": "https://m.richgo.ai/realty/danji/a4QtqUW",
+"photo": ""
+},
+{
+"id": "dabcdb3",
+"name": "신당파인힐하나유보라",
+"area": "왕십리",
+"areas": [
+"왕십리"
+],
+"address": "서울 중구 왕십리로 407",
+"households": 718,
+"bcr": 27,
+"far": 261,
+"moveIn": "2019-06",
+"facilities": [
+"놀이터",
+"야외 운동시설"
+],
+"keywords": [
+"교통",
+"생활편의",
+"상권",
+"신축"
+],
+"link": "https://realty.daangn.com/complexes/11164028",
+"photo": ""
+},
+{
+"id": "fa3880b",
+"name": "한신무학",
+"area": "왕십리",
+"areas": [
+"왕십리"
+],
+"address": "서울 성동구 왕십리로31나길 22",
+"households": 480,
+"bcr": 24,
+"far": 242,
+"moveIn": "1989-03",
+"facilities": [
+"놀이터",
+"야외 운동시설"
+],
+"keywords": [
+"교통",
+"생활편의",
+"상권"
+],
+"link": "https://realty.daangn.com/complexes/11130899",
+"photo": ""
+},
+{
+"id": "33df453",
+"name": "한진해모로",
+"area": "왕십리",
+"areas": [
+"왕십리",
+"신당"
+],
+"address": "서울 성동구 왕십리로31길 20 (하왕십리동 1050)",
+"households": 362,
+"bcr": 27,
+"far": 263,
+"moveIn": "2001-06",
+"facilities": [
+"놀이터",
+"노인정"
+],
+"keywords": [
+"교통",
+"생활편의",
+"상권",
+"도심접근성"
+],
+"link": "https://realty.daangn.com/complexes/20826880",
+"photo": ""
+},
+{
+"id": "a69078b",
+"name": "신당KCC스위첸",
+"area": "왕십리",
+"areas": [
+"왕십리",
+"신당"
+],
+"address": "서울 중구 난계로 130 (신당동 856)",
+"households": 176,
+"bcr": 26,
+"far": 248,
+"moveIn": "2019-06",
+"facilities": [
+"헬스장",
+"놀이터",
+"노인정",
+"입주민회의실"
+],
+"keywords": [
+"교통",
+"생활편의",
+"상권",
+"신축",
+"브랜드단지"
+],
+"link": "https://realty.daangn.com/complexes/11163996",
+"photo": ""
+},
+{
+"id": "b2cee82",
+"name": "무학현대",
+"area": "왕십리",
+"areas": [
+"왕십리",
+"신당"
+],
+"address": "서울 성동구 하왕십리동 992",
+"households": 277,
+"bcr": 21,
+"far": 220,
+"moveIn": "1996-03",
+"facilities": [
+"놀이터",
+"노인정",
+"야외 운동시설"
+],
+"keywords": [
+"교통",
+"생활편의",
+"상권",
+"도심접근성"
+],
+"link": "https://realty.daangn.com/complexes/11131056",
+"photo": ""
+},
+{
+"id": "6e4c379",
+"name": "왕십리금호베스트빌",
+"area": "왕십리",
+"areas": [
+"왕십리",
+"신당"
+],
+"address": "서울 성동구 난계로 114-31",
+"households": 458,
+"bcr": 23,
+"far": 318,
+"moveIn": "2001-10",
+"facilities": [
+"놀이터",
+"노인정",
+"야외 운동시설"
+],
+"keywords": [
+"교통",
+"생활편의",
+"상권",
+"도심접근성"
+],
+"link": "https://realty.daangn.com/complexes/20826881",
+"photo": ""
+},
+{
+"id": "cf2ffb9",
+"name": "왕십리자이",
+"area": "왕십리",
+"areas": [
+"왕십리",
+"신당"
+],
+"address": "서울 성동구 난계로 100 (하왕십리동 1071)",
+"households": 713,
+"bcr": 18,
+"far": 226,
+"moveIn": "2017-07",
+"facilities": [
+"헬스장",
+"놀이터",
+"노인정",
+"도서관",
+"골프장",
+"카페",
+"야외 운동시설"
+],
+"keywords": [
+"교통",
+"상권",
+"생활편의",
+"브랜드단지"
+],
+"link": "https://realty.daangn.com/complexes/11131517",
+"photo": ""
+},
+{
+"id": "25450a9",
+"name": "래미안신당하이베르",
+"area": "왕십리",
+"areas": [
+"왕십리",
+"신당"
+],
+"address": "서울 중구 퇴계로90길 74 (신당동 851)",
+"households": 784,
+"bcr": 24,
+"far": 225,
+"moveIn": "2011-10",
+"facilities": [
+"놀이터",
+"노인정",
+"야외 운동시설"
+],
+"keywords": [
+"교통",
+"상권",
+"생활편의",
+"브랜드단지"
+],
+"link": "https://realty.daangn.com/complexes/20826893",
+"photo": ""
+},
+{
+"id": "170cbb3",
+"name": "신당현대",
+"area": "왕십리",
+"areas": [
+"왕십리",
+"신당"
+],
+"address": "서울 중구 다산로36길 109 (신당동 840)",
+"households": 942,
+"bcr": 18,
+"far": 240,
+"moveIn": "1993-09",
+"facilities": [
+"놀이터",
+"노인정",
+"야외 운동시설"
+],
+"keywords": [
+"교통",
+"생활편의",
+"상권",
+"도심접근성"
+],
+"link": "https://realty.daangn.com/complexes/11162024",
+"photo": ""
+},
+{
+"id": "3aa7598",
+"name": "신당푸르지오",
+"area": "왕십리",
+"areas": [
+"왕십리",
+"신당"
+],
+"address": "서울 중구 다산로36길 110",
+"households": 461,
+"bcr": 21,
+"far": 297,
+"moveIn": "2005-12",
+"facilities": [
+"놀이터",
+"노인정",
+"입주민회의실",
+"야외 운동시설"
+],
+"keywords": [
+"교통",
+"상권",
+"생활편의",
+"브랜드단지"
+],
+"link": "https://realty.daangn.com/complexes/11162023",
+"photo": ""
+},
+{
+"id": "6e49d5e",
+"name": "신당삼성",
+"area": "왕십리",
+"areas": [
+"왕십리",
+"신당"
+],
+"address": "서울 중구 청구로1길 23 (신당동 843)",
+"households": 994,
+"bcr": 19,
+"far": 253,
+"moveIn": "1999-12",
+"facilities": [
+"놀이터",
+"노인정",
+"야외 운동시설"
+],
+"keywords": [
+"교통",
+"생활편의",
+"상권",
+"도심접근성"
+],
+"link": "https://realty.daangn.com/complexes/20826894",
+"photo": ""
+},
+{
+"id": "f2de195",
+"name": "왕십리풍림아이원",
+"area": "왕십리",
+"areas": [
+"왕십리",
+"신당"
+],
+"address": "서울 성동구 난계로 84",
+"households": 758,
+"bcr": 16,
+"far": 245,
+"moveIn": "2004-11",
+"facilities": [
+"놀이터",
+"노인정",
+"야외 운동시설"
+],
+"keywords": [
+"교통",
+"생활편의",
+"상권",
+"도심접근성"
+],
+"link": "https://realty.daangn.com/complexes/11131078",
+"photo": ""
+},
+{
+"id": "0e383e6",
+"name": "행당대림",
+"area": "행당",
+"areas": [
+"행당"
+],
+"address": "서울 성동구 행당로 79",
+"households": 3404,
+"bcr": 22,
+"far": 254,
+"moveIn": "1999-12",
+"facilities": [
+"놀이터",
+"노인정"
+],
+"keywords": [
+"교통",
+"생활편의",
+"교육환경"
+],
+"link": "https://realty.daangn.com/complexes/20826873",
+"photo": ""
+},
+{
+"id": "7170d8e",
+"name": "행당브라운스톤",
+"area": "행당",
+"areas": [
+"행당",
+"응봉"
+],
+"address": "서울 성동구 행당로 99 (행당동 364)",
+"households": 208,
+"bcr": 20,
+"far": 219,
+"moveIn": "2005-09",
+"facilities": [
+"놀이터",
+"노인정"
+],
+"keywords": [
+"교통",
+"생활편의",
+"교육환경",
+"한강생활권",
+"산책환경"
+],
+"link": "https://realty.daangn.com/complexes/11126704",
+"photo": ""
+},
+{
+"id": "c79b329",
+"name": "행당두산위브",
+"area": "행당",
+"areas": [
+"행당",
+"응봉"
+],
+"address": "서울 성동구 행당로8길 8 (행당동 375)",
+"households": 465,
+"bcr": 22,
+"far": 231,
+"moveIn": "2009-12",
+"facilities": [
+"놀이터",
+"노인정"
+],
+"keywords": [
+"교통",
+"생활편의",
+"교육환경",
+"한강생활권",
+"산책환경"
+],
+"link": "https://realty.daangn.com/complexes/11126694",
+"photo": ""
+},
+{
+"id": "7fd1e31",
+"name": "서울숲행당푸르지오",
+"area": "행당",
+"areas": [
+"행당",
+"응봉"
+],
+"address": "서울 성동구 고산자로 177",
+"households": 457,
+"bcr": 24,
+"far": 224,
+"moveIn": "2011-05",
+"facilities": [
+"놀이터",
+"노인정"
+],
+"keywords": [
+"교통",
+"생활편의",
+"산책환경",
+"교육환경",
+"서울숲생활권",
+"주거쾌적성"
+],
+"link": "https://realty.daangn.com/complexes/20826878",
+"photo": ""
+},
+{
+"id": "05aa0b1",
+"name": "라체르보푸르지오써밋",
+"area": "행당",
+"areas": [
+"행당",
+"응봉"
+],
+"address": "서울 성동구 고산자로2길 71 (행당동 128-7)",
+"households": 958,
+"bcr": 20,
+"far": 298,
+"moveIn": "2025-07",
+"facilities": [
+"헬스장",
+"놀이터",
+"노인정",
+"도서관",
+"골프장",
+"사우나",
+"GX룸",
+"입주민회의실",
+"카페",
+"야외 운동시설"
+],
+"keywords": [
+"교통",
+"생활편의",
+"신축",
+"브랜드단지",
+"한강생활권"
+],
+"link": "https://realty.daangn.com/complexes/11126447",
+"photo": ""
+},
+{
+"id": "5d0111d",
+"name": "서울숲한신더휴",
+"area": "행당",
+"areas": [
+"행당",
+"응봉"
+],
+"address": "서울 성동구 고산자로 164 (행당동 349)",
+"households": 1410,
+"bcr": 18,
+"far": 295,
+"moveIn": "2003-12",
+"facilities": [
+"놀이터",
+"노인정"
+],
+"keywords": [
+"교통",
+"서울숲생활권",
+"산책환경",
+"교육환경",
+"주거쾌적성"
+],
+"link": "https://realty.daangn.com/complexes/11126551",
+"photo": ""
+},
+{
+"id": "d535e39",
+"name": "서울숲리버뷰자이",
+"area": "행당",
+"areas": [
+"행당",
+"응봉"
+],
+"address": "서울 성동구 고산자로2길 65 (행당동)",
+"households": 1034,
+"bcr": 19,
+"far": 280,
+"moveIn": "2018-06",
+"facilities": [
+"헬스장",
+"놀이터",
+"노인정",
+"도서관",
+"골프장",
+"카페",
+"야외 운동시설"
+],
+"keywords": [
+"교통",
+"서울숲생활권",
+"한강조망",
+"커뮤니티",
+"한강생활권",
+"산책환경"
+],
+"link": "https://realty.daangn.com/complexes/11126550",
+"photo": ""
+},
+{
+"id": "86b9ee4",
+"name": "서울숲리버그린동아",
+"area": "행당",
+"areas": [
+"행당",
+"응봉"
+],
+"address": "서울 성동구 고산자로4길 34 (응봉동 276)",
+"households": 375,
+"bcr": 19,
+"far": 295,
+"moveIn": "2003-06",
+"facilities": [
+"놀이터",
+"노인정"
+],
+"keywords": [
+"교통",
+"서울숲생활권",
+"산책환경",
+"교육환경",
+"한강조망",
+"주거쾌적성"
+],
+"link": "https://realty.daangn.com/complexes/11125572",
+"photo": ""
+},
+{
+"id": "52654ba",
+"name": "대림강변타운",
+"area": "행당",
+"areas": [
+"행당",
+"응봉"
+],
+"address": "서울 성동구 고산자로 160 (응봉동 15)",
+"households": 1150,
+"bcr": 19,
+"far": 295,
+"moveIn": "2001-10",
+"facilities": [
+"놀이터",
+"노인정"
+],
+"keywords": [
+"교통",
+"생활편의",
+"교육환경",
+"한강생활권",
+"산책환경"
+],
+"link": "https://realty.daangn.com/complexes/11125587",
+"photo": ""
+},
+{
+"id": "479cb39",
+"name": "행당한진타운",
+"area": "행당",
+"areas": [
+"행당",
+"응봉"
+],
+"address": "서울 성동구 행당로6길 97",
+"households": 2123,
+"bcr": 19,
+"far": 294,
+"moveIn": "2000-11",
+"facilities": [
+"헬스장",
+"놀이터",
+"노인정",
+"도서관"
+],
+"keywords": [
+"교통",
+"생활편의",
+"교육환경",
+"한강생활권",
+"산책환경"
+],
+"link": "https://realty.daangn.com/complexes/20826876",
+"photo": ""
+},
+{
+"id": "ec1bab9",
+"name": "서울숲삼부",
+"area": "신금호·청구",
+"areas": [
+"신금호·청구"
+],
+"address": "서울 성동구 왕십리로 280 (행당동 147)",
+"households": 498,
+"bcr": 26,
+"far": 253,
+"moveIn": "1998-07",
+"facilities": [
+"놀이터",
+"노인정"
+],
+"keywords": [
+"교통",
+"생활편의",
+"주거쾌적성"
+],
+"link": "https://realty.daangn.com/complexes/11126904",
+"photo": ""
+},
+{
+"id": "a382dd1",
+"name": "서울숲더샵",
+"area": "신금호·청구",
+"areas": [
+"신금호·청구"
+],
+"address": "서울 성동구 왕십리로 241 (행당동 377)",
+"households": 495,
+"bcr": 34,
+"far": 392,
+"moveIn": "2014-09",
+"facilities": [
+"헬스장",
+"놀이터",
+"노인정",
+"골프장",
+"GX룸"
+],
+"keywords": [
+"교통",
+"생활편의",
+"서울숲생활권",
+"브랜드단지"
+],
+"link": "https://realty.daangn.com/complexes/11126927",
+"photo": ""
+},
+{
+"id": "032ff02",
+"name": "행당두산",
+"area": "신금호·청구",
+"areas": [
+"신금호·청구"
+],
+"address": "서울 성동구 고산자로14길 40 (행당동 345)",
+"households": 251,
+"bcr": 27,
+"far": 394,
+"moveIn": "1997-07",
+"facilities": [
+"놀이터",
+"노인정"
+],
+"keywords": [
+"교통",
+"생활편의",
+"주거쾌적성"
+],
+"link": "https://realty.daangn.com/complexes/11126554",
+"photo": ""
+},
+{
+"id": "7cba7d6",
+"name": "행당신동아",
+"area": "신금호·청구",
+"areas": [
+"신금호·청구"
+],
+"address": "서울 성동구 행당동 344",
+"households": 636,
+"bcr": 20,
+"far": 258,
+"moveIn": "1995-05",
+"facilities": [
+"놀이터",
+"노인정"
+],
+"keywords": [
+"교통",
+"생활편의",
+"주거쾌적성"
+],
+"link": "https://realty.daangn.com/complexes/11126437",
+"photo": ""
+},
+{
+"id": "93a1be9",
+"name": "금호벽산",
+"area": "신금호·청구",
+"areas": [
+"신금호·청구"
+],
+"address": "서울 성동구 금호로 100 (금호동1가 633)",
+"households": 1707,
+"bcr": 16,
+"far": 219,
+"moveIn": "2001-12",
+"facilities": [
+"놀이터",
+"노인정"
+],
+"keywords": [
+"교통",
+"생활편의",
+"주거쾌적성"
+],
+"link": "https://realty.daangn.com/complexes/20826872",
+"photo": ""
+},
+{
+"id": "50d709e",
+"name": "e편한세상금호파크힐스",
+"area": "신금호·청구",
+"areas": [
+"신금호·청구"
+],
+"address": "서울 성동구 금호로 140 (금호동1가 1823)",
+"households": 1330,
+"hhNote": "임대 137 포함",
+"bcr": 21,
+"far": 253,
+"moveIn": "2019-05",
+"facilities": [
+"헬스장",
+"놀이터",
+"노인정",
+"도서관",
+"골프장",
+"GX룸",
+"키즈카페",
+"입주민회의실",
+"카페",
+"야외 운동시설"
+],
+"keywords": [
+"교통",
+"생활편의",
+"신축",
+"브랜드단지"
+],
+"link": "https://realty.daangn.com/complexes/11125153",
+"photo": ""
+},
+{
+"id": "2988470",
+"name": "금호삼성래미안",
+"area": "신금호·청구",
+"areas": [
+"신금호·청구"
+],
+"address": "서울 성동구 독서당로 343 (금호동1가)",
+"households": 582,
+"bcr": 20,
+"far": 227,
+"moveIn": "2001-10",
+"facilities": [
+"놀이터",
+"노인정"
+],
+"keywords": [
+"교통",
+"서울숲생활권",
+"생활편의",
+"브랜드단지"
+],
+"link": "https://realty.daangn.com/complexes/11124986",
+"photo": ""
+},
+{
+"id": "03dabae",
+"name": "신금호두산위브",
+"area": "신금호·청구",
+"areas": [
+"신금호·청구"
+],
+"address": "서울 성동구 금호동1가 1818",
+"households": 169,
+"bcr": 23,
+"far": 243,
+"moveIn": "2006-03",
+"facilities": [
+"놀이터"
+],
+"keywords": [
+"교통",
+"생활편의",
+"주거쾌적성"
+],
+"link": "https://realty.daangn.com/complexes/11125114",
+"photo": ""
+},
+{
+"id": "5db062d",
+"name": "신금호파크자이",
+"area": "신금호·청구",
+"areas": [
+"신금호·청구"
+],
+"address": "서울 성동구 금호로 173 (금호동2가)",
+"households": 1156,
+"bcr": 18,
+"far": 217,
+"moveIn": "2016-04",
+"facilities": [
+"헬스장",
+"놀이터",
+"노인정",
+"도서관",
+"GX룸",
+"입주민회의실",
+"카페",
+"야외 운동시설"
+],
+"keywords": [
+"교통",
+"생활편의",
+"신축",
+"브랜드단지"
+],
+"link": "https://realty.daangn.com/complexes/11124853",
+"photo": ""
+},
+{
+"id": "30f37f1",
+"name": "래미안금호하이리버",
+"area": "신금호·청구",
+"areas": [
+"신금호·청구"
+],
+"address": "서울 성동구 금호로 107 (금호동2가)",
+"households": 847,
+"bcr": 20,
+"far": 248,
+"moveIn": "2012-05",
+"facilities": [
+"헬스장",
+"놀이터",
+"노인정",
+"도서관",
+"입주민회의실",
+"카페",
+"야외 운동시설"
+],
+"keywords": [
+"교통",
+"서울숲생활권",
+"생활편의",
+"브랜드단지"
+],
+"link": "https://realty.daangn.com/complexes/20826870",
+"photo": ""
+},
+{
+"id": "8288aea",
+"name": "금호자이1차",
+"area": "신금호·청구",
+"areas": [
+"신금호·청구"
+],
+"address": "서울 성동구 금호로 117 (금호동2가 1215)",
+"households": 401,
+"bcr": 23,
+"far": 239,
+"moveIn": "2012-05",
+"facilities": [
+"헬스장",
+"놀이터",
+"노인정"
+],
+"keywords": [
+"교통",
+"서울숲생활권",
+"생활편의",
+"브랜드단지"
+],
+"link": "https://realty.daangn.com/complexes/11124873",
+"photo": ""
+},
+{
+"id": "ef26ef6",
+"name": "약수하이츠",
+"area": "신금호·청구",
+"areas": [
+"신금호·청구"
+],
+"address": "서울 중구 동호로10길 30 (신당동 842)",
+"households": 2282,
+"bcr": 19,
+"far": 255,
+"moveIn": "1999-07",
+"facilities": [
+"놀이터",
+"노인정"
+],
+"keywords": [
+"교통",
+"생활편의",
+"주거쾌적성"
+],
+"link": "https://realty.daangn.com/complexes/20826895",
+"photo": ""
+},
+{
+"id": "12d8194",
+"name": "청구e편한세상",
+"area": "신금호·청구",
+"areas": [
+"신금호·청구"
+],
+"address": "서울 중구 청구로 64 (신당동 852)",
+"households": 895,
+"bcr": 23,
+"far": 224,
+"moveIn": "2011-12",
+"facilities": [
+"헬스장",
+"놀이터",
+"노인정"
+],
+"keywords": [
+"교통",
+"생활편의",
+"주거쾌적성"
+],
+"link": "https://realty.daangn.com/complexes/20826897",
+"photo": ""
+},
+{
+"id": "17f62f6",
+"name": "잠실엘스",
+"area": "잠실",
+"areas": [
+"잠실"
+],
+"address": "서울 송파구 올림픽로 99 (잠실동 19)",
+"households": 5678,
+"bcr": 16,
+"far": 275,
+"moveIn": "2008-09",
+"facilities": [
+"헬스장",
+"놀이터",
+"노인정",
+"도서관",
+"입주민회의실",
+"야외 운동시설"
+],
+"keywords": [
+"교통",
+"학군",
+"생활편의",
+"대단지",
+"커뮤니티"
+],
+"link": "https://realty.daangn.com/complexes/10677393",
+"photo": ""
+},
+{
+"id": "3e01884",
+"name": "리센츠",
+"area": "잠실",
+"areas": [
+"잠실"
+],
+"address": "서울 송파구 올림픽로 135 (잠실동 22)",
+"households": 5563,
+"bcr": 15,
+"far": 275,
+"moveIn": "2008-07",
+"facilities": [
+"헬스장",
+"놀이터",
+"노인정",
+"도서관",
+"입주민회의실",
+"야외 운동시설"
+],
+"keywords": [
+"교통",
+"학군",
+"생활편의",
+"대단지",
+"커뮤니티"
+],
+"link": "https://realty.daangn.com/complexes/10677385",
+"photo": ""
+},
+{
+"id": "7d4bc54",
+"name": "트리지움",
+"area": "잠실",
+"areas": [
+"잠실"
+],
+"address": "서울 송파구 잠실로 62 (잠실동 25)",
+"households": 3696,
+"bcr": 14,
+"far": 274,
+"moveIn": "2007-08",
+"facilities": [
+"헬스장",
+"놀이터",
+"노인정",
+"도서관",
+"입주민회의실",
+"야외 운동시설"
+],
+"keywords": [
+"교통",
+"학군",
+"생활편의",
+"대단지",
+"커뮤니티"
+],
+"link": "https://realty.daangn.com/complexes/10677440",
+"photo": ""
+},
+{
+"id": "ee4d912",
+"name": "레이크팰리스",
+"area": "잠실",
+"areas": [
+"잠실"
+],
+"address": "서울 송파구 잠실로 88 (잠실동 40)",
+"households": 2678,
+"bcr": 14,
+"far": 273,
+"moveIn": "2006-12",
+"facilities": [
+"헬스장",
+"놀이터",
+"노인정",
+"도서관",
+"입주민회의실",
+"야외 운동시설"
+],
+"keywords": [
+"교통",
+"학군",
+"생활편의",
+"대단지",
+"커뮤니티"
+],
+"link": "https://realty.daangn.com/complexes/10677439",
+"photo": ""
+},
+{
+"id": "6d54a76",
+"name": "잠실주공5단지",
+"area": "잠실",
+"areas": [
+"잠실"
+],
+"address": "서울 송파구 올림픽로 293 (잠실동 27)",
+"households": 3930,
+"bcr": null,
+"far": 138,
+"moveIn": "1978-04",
+"facilities": [
+"놀이터",
+"노인정"
+],
+"keywords": [
+"교통",
+"학군",
+"대단지",
+"재건축",
+"입지"
+],
+"link": "https://realty.daangn.com/complexes/10677370",
+"photo": ""
+},
+{
+"id": "ef1811b",
+"name": "잠실우성1·2·3차",
+"area": "잠실",
+"areas": [
+"잠실"
+],
+"address": "서울 송파구 올림픽로4길 42 (잠실동 101-1)",
+"households": 1842,
+"bcr": null,
+"far": null,
+"moveIn": "1981-12",
+"facilities": [
+"놀이터",
+"노인정"
+],
+"keywords": [
+"교통",
+"학군",
+"생활편의",
+"입지"
+],
+"link": "https://realty.daangn.com/complexes/10675654",
+"photo": ""
+},
+{
+"id": "655e5b8",
+"name": "잠실아시아선수촌",
+"area": "잠실",
+"areas": [
+"잠실"
+],
+"address": "서울 송파구 올림픽로4길 15 (잠실동 88)",
+"households": 1356,
+"bcr": null,
+"far": 152,
+"moveIn": "1986-06",
+"facilities": [
+"놀이터",
+"노인정"
+],
+"keywords": [
+"교통",
+"학군",
+"조용한환경",
+"공원",
+"입지"
+],
+"link": "https://realty.daangn.com/complexes/10675655",
+"photo": ""
+},
+{
+"id": "c3d4fcc",
+"name": "갤러리아팰리스",
+"area": "잠실",
+"areas": [
+"잠실"
+],
+"address": "서울 송파구 올림픽로 212 (잠실동 40)",
+"households": 741,
+"bcr": 35,
+"far": 799,
+"moveIn": "2005-01",
+"facilities": [
+"수영장",
+"헬스장",
+"놀이터",
+"노인정",
+"사우나",
+"GX룸",
+"입주민회의실",
+"카페"
+],
+"keywords": [
+"교통",
+"생활편의",
+"상권",
+"직주근접"
+],
+"link": "https://realty.daangn.com/complexes/10677380",
+"photo": ""
+},
+{
+"id": "1a7ee44",
+"name": "잠실우성4차",
+"area": "잠실",
+"areas": [
+"잠실"
+],
+"address": "서울 송파구 백제고분로18길 30 (잠실동 320)",
+"households": 555,
+"bcr": null,
+"far": 194,
+"moveIn": "1983",
+"facilities": [
+"놀이터",
+"노인정"
+],
+"keywords": [
+"교통",
+"학군",
+"생활편의",
+"입지"
+],
+"link": "https://realty.daangn.com/complexes/10676661",
+"photo": ""
+},
+{
+"id": "bc80513",
+"name": "잠실현대",
+"area": "잠실",
+"areas": [
+"잠실"
+],
+"address": "서울 송파구 잠실동 331",
+"households": 336,
+"bcr": null,
+"far": 257,
+"moveIn": "1990-08",
+"facilities": [
+"놀이터",
+"노인정"
+],
+"keywords": [
+"교통",
+"학군",
+"생활편의",
+"입지"
+],
+"link": "https://realty.daangn.com/complexes/10676429",
+"photo": ""
+},
+{
+"id": "716ca32",
+"name": "파크리오",
+"area": "잠실",
+"areas": [
+"잠실"
+],
+"address": "서울 송파구 올림픽로 435 (신천동 17)",
+"households": 6864,
+"bcr": 14,
+"far": 283,
+"moveIn": "2008-08",
+"facilities": [
+"헬스장",
+"놀이터",
+"노인정",
+"도서관",
+"골프장",
+"GX룸",
+"입주민회의실",
+"배드민턴장"
+],
+"keywords": [
+"교통",
+"대단지",
+"교육환경"
+],
+"link": "https://realty.daangn.com/complexes/10675563",
+"photo": ""
+},
+{
+"id": "01ecb77",
+"name": "잠실래미안아이파크",
+"area": "잠실",
+"areas": [
+"잠실"
+],
+"address": "서울 송파구 올림픽로 393 (신천동 20-4)",
+"households": 2678,
+"bcr": 21,
+"far": 300,
+"moveIn": "2025-12",
+"facilities": [
+"수영장",
+"헬스장",
+"놀이터",
+"북카페",
+"노인정",
+"도서관",
+"골프장",
+"사우나",
+"GX룸",
+"키즈카페",
+"게스트하우스",
+"입주민회의실",
+"조식 서비스",
+"카페",
+"야외 운동시설"
+],
+"keywords": [
+"교통",
+"신축",
+"대단지",
+"커뮤니티"
+],
+"link": "https://realty.daangn.com/complexes/10479021",
+"photo": ""
+},
+{
+"id": "b5f2822",
+"name": "잠실르엘",
+"area": "잠실",
+"areas": [
+"잠실"
+],
+"address": "서울 송파구 올림픽로 333 (신천동 17-6)",
+"households": 1865,
+"bcr": 17,
+"far": 299,
+"moveIn": "2026-01",
+"facilities": [
+"수영장",
+"헬스장",
+"놀이터",
+"노인정",
+"도서관",
+"골프장",
+"사우나",
+"GX룸",
+"게스트하우스",
+"카페"
+],
+"keywords": [
+"교통",
+"신축",
+"대단지",
+"커뮤니티"
+],
+"link": "https://realty.daangn.com/complexes/10478062",
+"photo": ""
+},
+{
+"id": "136eea6",
+"name": "잠실장미1·2·3차",
+"area": "잠실",
+"areas": [
+"잠실"
+],
+"address": "서울 송파구 올림픽로35길 104 (신천동 7, 11)",
+"households": 3522,
+"bcr": null,
+"far": 184,
+"farNote": "1차",
+"moveIn": "1979-01",
+"facilities": [
+"놀이터",
+"노인정"
+],
+"keywords": [
+"교통",
+"대단지",
+"교육환경",
+"생활편의"
+],
+"link": "https://realty.daangn.com/complexes/10675557",
+"photo": ""
+},
+{
+"id": "2cc53b8",
+"name": "디에이치퍼스티어아이파크",
+"area": "개포",
+"areas": [
+"개포"
+],
+"address": "서울 강남구 개포로 310",
+"households": 6702,
+"bcr": 19,
+"far": 249,
+"moveIn": "2023-11",
+"facilities": [
+"수영장",
+"헬스장",
+"놀이터",
+"노인정",
+"도서관",
+"골프장",
+"사우나",
+"GX룸",
+"게스트하우스",
+"카페"
+],
+"keywords": [
+"신축",
+"대단지",
+"커뮤니티",
+"교육환경"
+],
+"link": "https://realty.daangn.com/complexes/10694749",
+"photo": ""
+},
+{
+"id": "18209ee",
+"name": "개포자이프레지던스",
+"area": "개포",
+"areas": [
+"개포"
+],
+"address": "서울 강남구 삼성로 14",
+"households": 3375,
+"bcr": 20,
+"far": 249,
+"moveIn": "2023-02",
+"facilities": [
+"수영장",
+"헬스장",
+"놀이터",
+"북카페",
+"노인정",
+"도서관",
+"골프장",
+"사우나",
+"게스트하우스",
+"조식 서비스",
+"카페"
+],
+"keywords": [
+"신축",
+"대단지",
+"커뮤니티",
+"교육환경"
+],
+"link": "https://realty.daangn.com/complexes/10693397",
+"photo": ""
+},
+{
+"id": "b06e1f9",
+"name": "래미안블레스티지",
+"area": "개포",
+"areas": [
+"개포"
+],
+"address": "서울 강남구 선릉로 8 (개포동 1280)",
+"households": 1957,
+"bcr": 18,
+"far": 249,
+"moveIn": "2019-02",
+"facilities": [
+"수영장",
+"헬스장",
+"놀이터",
+"노인정",
+"도서관",
+"골프장",
+"사우나",
+"GX룸",
+"게스트하우스",
+"조식 서비스",
+"카페"
+],
+"keywords": [
+"신축",
+"대단지",
+"커뮤니티",
+"공원"
+],
+"link": "https://realty.daangn.com/complexes/10694694",
+"photo": ""
+},
+{
+"id": "4efdb11",
+"name": "디에이치아너힐즈",
+"area": "개포",
+"areas": [
+"개포"
+],
+"address": "서울 강남구 삼성로 11 (개포동 1281)",
+"households": 1320,
+"bcr": 19,
+"far": 249,
+"moveIn": "2019-08",
+"facilities": [
+"수영장",
+"헬스장",
+"놀이터",
+"북카페",
+"노인정",
+"도서관",
+"골프장",
+"사우나",
+"GX룸",
+"키즈카페",
+"게스트하우스",
+"조식 서비스",
+"카페"
+],
+"keywords": [
+"교통",
+"신축",
+"커뮤니티",
+"공원"
+],
+"link": "https://realty.daangn.com/complexes/10694704",
+"photo": ""
+},
+{
+"id": "3b8377a",
+"name": "개포래미안포레스트",
+"area": "개포",
+"areas": [
+"개포"
+],
+"address": "서울 강남구 개포로 264 (개포동 1282)",
+"households": 2296,
+"bcr": 21,
+"far": 249,
+"moveIn": "2020-09",
+"facilities": [
+"헬스장",
+"놀이터",
+"노인정",
+"도서관",
+"골프장",
+"사우나",
+"GX룸",
+"키즈카페",
+"게스트하우스",
+"조식 서비스",
+"카페"
+],
+"keywords": [
+"신축",
+"대단지",
+"커뮤니티",
+"공원"
+],
+"link": "https://realty.daangn.com/complexes/10693398",
+"photo": ""
+},
+{
+"id": "4997de6",
+"name": "디에이치자이개포",
+"area": "개포",
+"areas": [
+"개포"
+],
+"address": "서울 강남구 영동대로 22 (일원동 743)",
+"households": 1996,
+"bcr": 28,
+"far": 336,
+"moveIn": "2021-07",
+"facilities": [
+"수영장",
+"헬스장",
+"놀이터",
+"노인정",
+"도서관",
+"골프장",
+"사우나",
+"GX룸",
+"게스트하우스",
+"조식 서비스",
+"카페"
+],
+"keywords": [
+"교통",
+"신축",
+"대단지",
+"커뮤니티"
+],
+"link": "https://realty.daangn.com/complexes/10679643",
+"photo": ""
+},
+{
+"id": "d784bce",
+"name": "래미안개포루체하임",
+"area": "개포",
+"areas": [
+"개포"
+],
+"address": "서울 강남구 개포로110길 50",
+"households": 850,
+"bcr": 25,
+"far": 249,
+"moveIn": "2018-11",
+"facilities": [
+"헬스장",
+"놀이터",
+"노인정",
+"도서관",
+"골프장",
+"사우나",
+"게스트하우스",
+"카페"
+],
+"keywords": [
+"교통",
+"브랜드단지"
+],
+"link": "https://realty.daangn.com/complexes/10679577",
+"photo": ""
+},
+{
+"id": "9e87c35",
+"name": "개포주공5단지",
+"area": "개포",
+"areas": [
+"개포"
+],
+"address": "서울 강남구 삼성로4길 17",
+"households": 940,
+"bcr": 12,
+"far": 151,
+"moveIn": "1983-10",
+"facilities": [
+"놀이터",
+"노인정"
+],
+"keywords": [
+"교통",
+"교육환경",
+"생활편의"
+],
+"link": "https://realty.daangn.com/complexes/10693618",
+"photo": ""
+},
+{
+"id": "1d80ba2",
+"name": "개포주공6단지",
+"area": "개포",
+"areas": [
+"개포"
+],
+"address": "서울 강남구 개포로 516",
+"households": 1060,
+"bcr": null,
+"far": null,
+"moveIn": "1983-10",
+"facilities": [
+"놀이터",
+"노인정"
+],
+"keywords": [
+"교통",
+"교육환경",
+"생활편의"
+],
+"link": "https://realty.daangn.com/complexes/20826662",
+"photo": ""
+},
+{
+"id": "ddc6bd3",
+"name": "대치2단지",
+"area": "개포",
+"areas": [
+"개포"
+],
+"address": "서울 강남구 개포로109길 9",
+"households": 1758,
+"bcr": 12,
+"far": 174,
+"moveIn": "1992-10",
+"facilities": [
+"놀이터",
+"노인정"
+],
+"keywords": [
+"대단지",
+"생활편의",
+"교육환경"
+],
+"link": "https://realty.daangn.com/complexes/10694667",
+"photo": ""
+},
+{
+"id": "391b845",
+"name": "목동신시가지1단지",
+"area": "목동",
+"areas": [
+"목동"
+],
+"address": "서울 양천구 목동서로 38",
+"households": 1882,
+"bcr": 16,
+"far": 123,
+"moveIn": "1985-11",
+"facilities": [
+"놀이터"
+],
+"keywords": [
+"학군",
+"학원가",
+"대단지",
+"재건축",
+"목동학군"
+],
+"link": "https://realty.daangn.com/complexes/10866909",
+"photo": ""
+},
+{
+"id": "86219a8",
+"name": "목동신시가지2단지",
+"area": "목동",
+"areas": [
+"목동"
+],
+"address": "서울 양천구 목동서로 70",
+"households": 1640,
+"bcr": 16,
+"far": 124,
+"moveIn": "1986-09",
+"facilities": [],
+"keywords": [
+"학군",
+"학원가",
+"대단지",
+"재건축",
+"목동학군"
+],
+"link": "https://realty.daangn.com/complexes/10866901",
+"photo": ""
+},
+{
+"id": "81f72aa",
+"name": "목동신시가지3단지",
+"area": "목동",
+"areas": [
+"목동"
+],
+"address": "서울 양천구 목동서로 100",
+"households": 1588,
+"bcr": 16,
+"far": 122,
+"moveIn": "1986-09",
+"facilities": [],
+"keywords": [
+"학군",
+"학원가",
+"대단지",
+"재건축",
+"목동학군"
+],
+"link": "https://realty.daangn.com/complexes/10866001",
+"photo": ""
+},
+{
+"id": "a8f20fe",
+"name": "목동신시가지4단지",
+"area": "목동",
+"areas": [
+"목동"
+],
+"address": "서울 양천구 목동서로 130",
+"households": 1382,
+"bcr": 13,
+"far": 123,
+"moveIn": "1986-09",
+"facilities": [
+"수영장",
+"놀이터"
+],
+"keywords": [
+"학군",
+"학원가",
+"대단지",
+"재건축",
+"목동학군"
+],
+"link": "https://realty.daangn.com/complexes/10866893",
+"photo": ""
+},
+{
+"id": "67206d9",
+"name": "목동신시가지5단지",
+"area": "목동",
+"areas": [
+"목동"
+],
+"address": "서울 양천구 목동동로 350",
+"households": 1848,
+"bcr": 14,
+"far": 116,
+"moveIn": "1986-09",
+"facilities": [],
+"keywords": [
+"학군",
+"학원가",
+"대단지",
+"녹지",
+"목동학군"
+],
+"link": "https://realty.daangn.com/complexes/10866961",
+"photo": ""
+},
+{
+"id": "36f0343",
+"name": "목동신시가지6단지",
+"area": "목동",
+"areas": [
+"목동"
+],
+"address": "서울 양천구 목동동로 430",
+"households": 1362,
+"bcr": 11,
+"far": 139,
+"moveIn": "1986-09",
+"facilities": [],
+"keywords": [
+"학군",
+"학원가",
+"대단지",
+"재건축",
+"목동학군"
+],
+"link": "https://realty.daangn.com/complexes/10866942",
+"photo": ""
+},
+{
+"id": "755cb5a",
+"name": "목동신시가지7단지",
+"area": "목동",
+"areas": [
+"목동"
+],
+"address": "서울 양천구 목동로 212",
+"households": 2550,
+"bcr": 11,
+"far": 125,
+"moveIn": "1986-10",
+"facilities": [],
+"keywords": [
+"학군",
+"학원가",
+"대단지",
+"교통",
+"목동학군"
+],
+"link": "https://realty.daangn.com/complexes/10866929",
+"photo": ""
+},
+{
+"id": "3c7b8dc",
+"name": "목동신시가지8단지",
+"area": "목동",
+"areas": [
+"목동"
+],
+"address": "서울 양천구 목동서로 280",
+"households": 1352,
+"bcr": 10,
+"far": 156,
+"moveIn": "1987-09",
+"facilities": [
+"놀이터",
+"노인정"
+],
+"keywords": [
+"학군",
+"학원가",
+"대단지",
+"재건축",
+"목동학군"
+],
+"link": "https://realty.daangn.com/complexes/10871702",
+"photo": ""
+},
+{
+"id": "6d5ae30",
+"name": "목동신시가지9단지",
+"area": "목동",
+"areas": [
+"목동"
+],
+"address": "서울 양천구 목동서로 340",
+"households": 2030,
+"bcr": 13,
+"far": 133,
+"moveIn": "1987-07",
+"facilities": [],
+"keywords": [
+"학군",
+"학원가",
+"대단지",
+"재건축",
+"목동학군"
+],
+"link": "https://realty.daangn.com/complexes/10871692",
+"photo": ""
+},
+{
+"id": "c69d5a3",
+"name": "목동신시가지10단지",
+"area": "목동",
+"areas": [
+"목동"
+],
+"address": "서울 양천구 목동서로 400",
+"households": 2160,
+"bcr": 14,
+"far": 123,
+"moveIn": "1987-07",
+"facilities": [],
+"keywords": [
+"학군",
+"학원가",
+"대단지",
+"재건축",
+"목동학군"
+],
+"link": "https://realty.daangn.com/complexes/10870899",
+"photo": ""
+},
+{
+"id": "5771b80",
+"name": "목동신시가지11단지",
+"area": "목동",
+"areas": [
+"목동"
+],
+"address": "서울 양천구 목동동로 10",
+"households": 1595,
+"bcr": 10,
+"far": 120,
+"moveIn": "1988-10",
+"facilities": [],
+"keywords": [
+"학군",
+"학원가",
+"대단지",
+"재건축",
+"목동학군"
+],
+"link": "https://realty.daangn.com/complexes/10871799",
+"photo": ""
+},
+{
+"id": "2b61bf4",
+"name": "목동신시가지12단지",
+"area": "목동",
+"areas": [
+"목동"
+],
+"address": "서울 양천구 목동동로 50",
+"households": 1860,
+"bcr": 12,
+"far": 119,
+"moveIn": "1988-10",
+"facilities": [
+"놀이터"
+],
+"keywords": [
+"학군",
+"학원가",
+"대단지",
+"재건축",
+"목동학군"
+],
+"link": "https://realty.daangn.com/complexes/10871796",
+"photo": ""
+},
+{
+"id": "5d19233",
+"name": "목동신시가지13단지",
+"area": "목동",
+"areas": [
+"목동"
+],
+"address": "서울 양천구 목동동로 100",
+"households": 2280,
+"bcr": 15,
+"far": 159,
+"moveIn": "1987-07",
+"facilities": [
+"헬스장",
+"놀이터",
+"도서관"
+],
+"keywords": [
+"학군",
+"학원가",
+"대단지",
+"재건축",
+"목동학군"
+],
+"link": "https://realty.daangn.com/complexes/10871778",
+"photo": ""
+},
+{
+"id": "b4efdeb",
+"name": "목동신시가지14단지",
+"area": "목동",
+"areas": [
+"목동"
+],
+"address": "서울 양천구 목동동로 130",
+"households": 3100,
+"bcr": 10,
+"far": 146,
+"moveIn": "1987-07",
+"facilities": [],
+"keywords": [
+"학군",
+"학원가",
+"대단지",
+"재건축",
+"목동학군"
+],
+"link": "https://realty.daangn.com/complexes/10870867",
+"photo": ""
+},
+{
+"id": "49fb634",
+"name": "목동현대하이페리온1차",
+"area": "목동",
+"areas": [
+"목동"
+],
+"address": "서울 양천구 목동동로 257",
+"households": 466,
+"hhNote": "오피스텔 260실 별도",
+"bcr": 59,
+"far": 817,
+"moveIn": "2003-07",
+"facilities": [
+"수영장",
+"헬스장",
+"골프장",
+"사우나",
+"GX룸"
+],
+"keywords": [
+"학군",
+"생활편의",
+"학원가",
+"상권"
+],
+"link": "https://realty.daangn.com/complexes/10866992",
+"photo": ""
+},
+{
+"id": "d0e6584",
+"name": "목동현대하이페리온2차",
+"area": "목동",
+"areas": [
+"목동"
+],
+"address": "서울 양천구 오목로 300",
+"households": 576,
+"hhNote": "오피스텔 403실 별도",
+"bcr": 31,
+"far": 631,
+"moveIn": "2006-11",
+"facilities": [],
+"keywords": [
+"학군",
+"생활편의",
+"학원가",
+"상권"
+],
+"link": "https://m.richgo.ai/realty/danji/a8SXdNu",
+"photo": ""
+},
+{
+"id": "5c61cfa",
+"name": "목동트라팰리스",
+"area": "목동",
+"areas": [
+"목동"
+],
+"address": "서울 양천구 오목로 299",
+"households": 522,
+"hhNote": "웨스턴 264+이스턴 258",
+"bcr": 49,
+"far": 632,
+"moveIn": "2009-01",
+"facilities": [
+"노인정",
+"입주민회의실"
+],
+"keywords": [
+"학군",
+"생활편의",
+"학원가",
+"상권"
+],
+"link": "https://m.richgo.ai/realty/danji/a3kRaHN",
+"photo": ""
+},
+{
+"id": "c30f6cb",
+"name": "현대41타워",
+"area": "목동",
+"areas": [
+"목동"
+],
+"address": "서울 양천구 목동동로 293",
+"households": 586,
+"hhNote": "오피스텔",
+"bcr": 61,
+"far": 1016,
+"moveIn": "2001-06",
+"facilities": [],
+"keywords": [
+"학군",
+"생활편의",
+"학원가",
+"도심접근성"
+],
+"link": "https://realty.daangn.com/complexes/10866980",
+"photo": ""
+},
+{
+"id": "11bb2d1",
+"name": "목동파라곤",
+"area": "목동",
+"areas": [
+"목동"
+],
+"address": "서울 양천구 목동서로 155",
+"households": 700,
+"hhNote": "오피스텔",
+"bcr": 56,
+"far": 827,
+"moveIn": "2004-09",
+"facilities": [
+"헬스장",
+"사우나"
+],
+"keywords": [
+"학군",
+"생활편의",
+"학원가",
+"상권"
+],
+"link": "https://realty.daangn.com/complexes/10866886",
+"photo": ""
+},
+{
+"id": "00fce8c",
+"name": "목동삼성쉐르빌1차",
+"area": "목동",
+"areas": [
+"목동"
+],
+"address": "서울 양천구 목동동로 189 (신정동 318-10)",
+"households": 312,
+"bcr": 56,
+"far": 860,
+"moveIn": "2003-04",
+"facilities": [],
+"keywords": [
+"학군",
+"생활편의",
+"학원가",
+"도심접근성"
+],
+"link": "https://m.richgo.ai/realty/danji/a7oPYqL",
+"photo": ""
+},
+{
+"id": "d628ea8",
+"name": "목동삼성쉐르빌2차",
+"area": "목동",
+"areas": [
+"목동"
+],
+"address": "서울 양천구 목동동로 177 (신정동 318-12)",
+"households": 170,
+"bcr": 56,
+"far": 788,
+"moveIn": "2004-03",
+"facilities": [
+"헬스장",
+"도서관",
+"입주민회의실"
+],
+"keywords": [
+"학군",
+"생활편의",
+"학원가",
+"도심접근성"
+],
+"link": "https://m.richgo.ai/realty/danji/a0eOBRK",
+"photo": ""
+},
+{
+"id": "400061c",
+"name": "아크로리버파크",
+"area": "반포",
+"areas": [
+"반포"
+],
+"address": "서울 서초구 신반포로15길 19",
+"households": 1612,
+"bcr": 19,
+"far": 299,
+"moveIn": "2016-08",
+"facilities": [
+"수영장",
+"헬스장",
+"놀이터",
+"북카페",
+"노인정",
+"도서관",
+"사우나",
+"GX룸",
+"입주민회의실",
+"배드민턴장",
+"야외 운동시설"
+],
+"keywords": [
+"교통",
+"대단지",
+"커뮤니티",
+"학군"
+],
+"link": "https://realty.daangn.com/complexes/10705363",
+"photo": ""
+},
+{
+"id": "8b13271",
+"name": "래미안퍼스티지",
+"area": "반포",
+"areas": [
+"반포"
+],
+"address": "서울 서초구 반포대로 275",
+"households": 2444,
+"bcr": 12,
+"far": 269,
+"moveIn": "2009-07",
+"facilities": [
+"헬스장",
+"놀이터",
+"노인정",
+"도서관",
+"사우나",
+"GX룸",
+"입주민회의실",
+"카페",
+"야외 운동시설"
+],
+"keywords": [
+"교통",
+"대단지",
+"학군",
+"공원"
+],
+"link": "https://realty.daangn.com/complexes/10706472",
+"photo": ""
+},
+{
+"id": "bf72fe2",
+"name": "반포자이",
+"area": "반포",
+"areas": [
+"반포"
+],
+"address": "서울 서초구 신반포로 270",
+"households": 3410,
+"bcr": 13,
+"far": 270,
+"moveIn": "2009-03",
+"facilities": [
+"헬스장",
+"놀이터",
+"노인정",
+"도서관",
+"사우나",
+"GX룸",
+"입주민회의실",
+"카페",
+"야외 운동시설"
+],
+"keywords": [
+"교통",
+"대단지",
+"학군",
+"교육환경"
+],
+"link": "https://realty.daangn.com/complexes/10706422",
+"photo": ""
+},
+{
+"id": "b249d84",
+"name": "반포리체",
+"area": "반포",
+"areas": [
+"반포"
+],
+"address": "서울 서초구 고무래로 35",
+"households": 1119,
+"bcr": 11,
+"far": 243,
+"moveIn": "2010-10",
+"facilities": [
+"헬스장",
+"놀이터",
+"노인정",
+"도서관",
+"사우나",
+"GX룸",
+"입주민회의실",
+"카페",
+"야외 운동시설"
+],
+"keywords": [
+"교통",
+"학군",
+"교육환경"
+],
+"link": "https://realty.daangn.com/complexes/10706406",
+"photo": ""
+},
+{
+"id": "f3c616a",
+"name": "반포써밋",
+"area": "반포",
+"areas": [
+"반포"
+],
+"address": "서울 서초구 고무래로 89",
+"households": 764,
+"bcr": 19,
+"far": 293,
+"moveIn": "2018-09",
+"facilities": [
+"헬스장",
+"놀이터",
+"노인정",
+"도서관",
+"사우나",
+"GX룸",
+"입주민회의실",
+"카페",
+"야외 운동시설"
+],
+"keywords": [
+"교통",
+"학군",
+"교육환경",
+"브랜드단지"
+],
+"link": "https://realty.daangn.com/complexes/10706572",
+"photo": ""
+},
+{
+"id": "2b71ae2",
+"name": "래미안원베일리",
+"area": "반포",
+"areas": [
+"반포"
+],
+"address": "서울 서초구 반포대로 333",
+"households": 2990,
+"bcr": 19,
+"far": 299,
+"moveIn": "2023-08",
+"facilities": [
+"수영장",
+"헬스장",
+"놀이터",
+"북카페",
+"노인정",
+"도서관",
+"사우나",
+"GX룸",
+"입주민회의실",
+"카페",
+"야외 운동시설"
+],
+"keywords": [
+"교통",
+"신축",
+"대단지",
+"커뮤니티"
+],
+"link": "https://realty.daangn.com/complexes/10706615",
+"photo": ""
+},
+{
+"id": "229c3de",
+"name": "반포센트럴자이",
+"area": "반포",
+"areas": [
+"반포"
+],
+"address": "서울 서초구 반포대로 310-6",
+"households": 757,
+"bcr": 16,
+"far": 299,
+"moveIn": "2020-04",
+"facilities": [
+"수영장",
+"헬스장",
+"놀이터",
+"북카페",
+"노인정",
+"도서관",
+"사우나",
+"GX룸",
+"입주민회의실",
+"카페",
+"야외 운동시설"
+],
+"keywords": [
+"교통",
+"신축",
+"커뮤니티",
+"학군"
+],
+"link": "https://realty.daangn.com/complexes/10707520",
+"photo": ""
+},
+{
+"id": "34add2d",
+"name": "래미안원펜타스",
+"area": "반포",
+"areas": [
+"반포"
+],
+"address": "서울 서초구 반포동 12",
+"households": 641,
+"bcr": 18,
+"far": 299,
+"moveIn": "2024-06",
+"facilities": [
+"수영장",
+"헬스장",
+"놀이터",
+"북카페",
+"노인정",
+"도서관",
+"골프장",
+"사우나",
+"GX룸",
+"키즈카페",
+"게스트하우스",
+"입주민회의실",
+"카페",
+"야외 운동시설"
+],
+"keywords": [
+"교통",
+"신축",
+"커뮤니티",
+"학군"
+],
+"link": "https://realty.daangn.com/complexes/10705370",
+"photo": ""
+},
+{
+"id": "e8128b0",
+"name": "고덕그라시움",
+"area": "고덕",
+"areas": [
+"고덕"
+],
+"address": "서울 강동구 고덕로 333 (고덕동 693)",
+"households": 4932,
+"bcr": 20,
+"far": 249,
+"moveIn": "2019-09",
+"facilities": [
+"수영장",
+"헬스장",
+"놀이터",
+"북카페",
+"노인정",
+"도서관",
+"골프장",
+"사우나",
+"GX룸",
+"게스트하우스",
+"입주민회의실",
+"배드민턴장",
+"카페",
+"야외 운동시설"
+],
+"keywords": [
+"교통",
+"신축",
+"대단지",
+"커뮤니티"
+],
+"link": "https://realty.daangn.com/complexes/10654447",
+"photo": ""
+},
+{
+"id": "3980a69",
+"name": "고덕아르테온",
+"area": "고덕",
+"areas": [
+"고덕"
+],
+"address": "서울 강동구 고덕로 360 (상일동 519)",
+"households": 4066,
+"bcr": 19,
+"far": 249,
+"moveIn": "2020-02",
+"facilities": [
+"헬스장",
+"놀이터",
+"노인정",
+"도서관",
+"골프장",
+"사우나",
+"키즈카페",
+"입주민회의실",
+"카페"
+],
+"keywords": [
+"교통",
+"신축",
+"대단지",
+"교육환경"
+],
+"link": "https://realty.daangn.com/complexes/10653309",
+"photo": ""
+},
+{
+"id": "5790066",
+"name": "고덕센트럴아이파크",
+"area": "고덕",
+"areas": [
+"고덕"
+],
+"address": "서울 강동구 고덕로80길 127 (상일동 513)",
+"households": 1745,
+"bcr": 19,
+"far": 249,
+"moveIn": "2019-12",
+"facilities": [
+"헬스장",
+"놀이터",
+"노인정",
+"도서관",
+"골프장",
+"사우나",
+"GX룸",
+"키즈카페",
+"카페"
+],
+"keywords": [
+"교통",
+"신축",
+"대단지",
+"교육환경"
+],
+"link": "https://realty.daangn.com/complexes/10653307",
+"photo": ""
+},
+{
+"id": "9fdd40a",
+"name": "고덕래미안힐스테이트",
+"area": "고덕",
+"areas": [
+"고덕"
+],
+"address": "서울 강동구 아리수로50길 50 (고덕동)",
+"households": 3658,
+"bcr": 19,
+"far": 249,
+"moveIn": "2016-12",
+"facilities": [
+"헬스장",
+"놀이터",
+"노인정",
+"도서관",
+"골프장",
+"사우나",
+"키즈카페",
+"게스트하우스",
+"카페"
+],
+"keywords": [
+"교통",
+"대단지",
+"브랜드단지"
+],
+"link": "https://realty.daangn.com/complexes/10654030",
+"photo": ""
+},
+{
+"id": "c6a96df",
+"name": "고덕롯데캐슬베네루체",
+"area": "고덕",
+"areas": [
+"고덕"
+],
+"address": "서울 강동구 상암로79길 88 (상일동 514)",
+"households": 1859,
+"bcr": 18,
+"far": 249,
+"moveIn": "2019-12",
+"facilities": [
+"헬스장",
+"놀이터",
+"노인정",
+"도서관",
+"골프장",
+"사우나",
+"GX룸",
+"게스트하우스",
+"입주민회의실",
+"카페"
+],
+"keywords": [
+"신축",
+"대단지",
+"커뮤니티",
+"브랜드단지"
+],
+"link": "https://realty.daangn.com/complexes/10653226",
+"photo": ""
+},
+{
+"id": "271e2f9",
+"name": "고덕자이",
+"area": "고덕",
+"areas": [
+"고덕"
+],
+"address": "서울 강동구 상일로 55 (상일동 521)",
+"households": 1824,
+"bcr": 15,
+"far": 244,
+"moveIn": "2021-01",
+"facilities": [
+"헬스장",
+"놀이터",
+"북카페",
+"노인정",
+"도서관",
+"골프장",
+"사우나",
+"GX룸",
+"게스트하우스",
+"입주민회의실",
+"카페",
+"야외 운동시설"
+],
+"keywords": [
+"신축",
+"대단지",
+"커뮤니티",
+"브랜드단지"
+],
+"link": "https://realty.daangn.com/complexes/10653321",
+"photo": ""
+},
+{
+"id": "886402e",
+"name": "올림픽파크포레온",
+"area": "고덕",
+"areas": [
+"고덕"
+],
+"address": "서울 강동구 양재대로 1300 (둔촌동 170-1)",
+"households": 12032,
+"bcr": 18,
+"far": 273,
+"moveIn": "2024-11",
+"facilities": [
+"수영장",
+"헬스장",
+"놀이터",
+"노인정",
+"도서관",
+"골프장",
+"사우나",
+"GX룸",
+"게스트하우스",
+"조식 서비스",
+"카페"
+],
+"keywords": [
+"교통",
+"신축",
+"대단지",
+"커뮤니티"
+],
+"link": "https://realty.daangn.com/complexes/10650271",
+"photo": ""
+},
+{
+"id": "a3edb85",
+"name": "둔촌푸르지오",
+"area": "고덕",
+"areas": [
+"고덕"
+],
+"address": "서울 강동구 명일로 172 (둔촌동 630)",
+"households": 800,
+"bcr": 17,
+"far": 249,
+"moveIn": "2010-03",
+"facilities": [
+"놀이터",
+"노인정",
+"도서관",
+"야외 운동시설"
+],
+"keywords": [
+"공원",
+"브랜드단지"
+],
+"link": "https://realty.daangn.com/complexes/10650665",
+"photo": ""
+},
+{
+"id": "8171fd3",
+"name": "고덕아이파크",
+"area": "고덕",
+"areas": [
+"고덕"
+],
+"address": "서울 강동구 동남로79길 26 (고덕동 499)",
+"households": 1142,
+"bcr": 21,
+"far": 240,
+"moveIn": "2011-12",
+"facilities": [
+"헬스장",
+"놀이터",
+"노인정",
+"도서관",
+"골프장",
+"GX룸"
+],
+"keywords": [
+"교통",
+"생활편의",
+"브랜드단지"
+],
+"link": "https://realty.daangn.com/complexes/10654556",
+"photo": ""
+},
+{
+"id": "ef0a27c",
+"name": "고덕센트럴푸르지오",
+"area": "고덕",
+"areas": [
+"고덕"
+],
+"address": "서울 강동구 고덕로 399 (고덕동 210-1)",
+"households": 656,
+"bcr": 57,
+"far": 499,
+"moveIn": "2020-09",
+"facilities": [
+"헬스장",
+"놀이터",
+"북카페",
+"노인정",
+"도서관",
+"골프장",
+"GX룸",
+"키즈카페",
+"카페"
+],
+"keywords": [
+"교통",
+"신축",
+"공원",
+"브랜드단지"
+],
+"link": "https://realty.daangn.com/complexes/10654693",
+"photo": ""
+},
+{
+"id": "2e4adb1",
+"name": "고덕숲아이파크",
+"area": "고덕",
+"areas": [
+"고덕"
+],
+"address": "서울 강동구 고덕로80길 134 (상일동 515)",
+"households": 687,
+"bcr": 22,
+"far": 249,
+"moveIn": "2018-03",
+"facilities": [
+"헬스장",
+"놀이터",
+"노인정",
+"골프장",
+"카페"
+],
+"keywords": [
+"공원",
+"생활편의",
+"브랜드단지"
+],
+"link": "https://realty.daangn.com/complexes/10653306",
+"photo": ""
+},
+{
+"id": "06c5778",
+"name": "고덕풍경채어바니티",
+"area": "고덕",
+"areas": [
+"고덕"
+],
+"address": "서울 강동구 아리수로 375 (고덕동 136)",
+"households": 780,
+"bcr": 29,
+"far": 201,
+"moveIn": "2024-01",
+"facilities": [
+"헬스장",
+"놀이터",
+"노인정",
+"도서관",
+"골프장"
+],
+"keywords": [
+"신축",
+"교육환경",
+"공원"
+],
+"link": "https://realty.daangn.com/complexes/10654747",
+"photo": ""
+},
+{
+"id": "64343a9",
+"name": "래미안에스티움",
+"area": "신길",
+"areas": [
+"신길"
+],
+"address": "서울 영등포구 신풍로 77 (신길동 4950)",
+"households": 1722,
+"bcr": 19,
+"far": 252,
+"moveIn": "2017-04",
+"facilities": [
+"헬스장",
+"놀이터",
+"노인정",
+"도서관",
+"골프장",
+"사우나",
+"GX룸",
+"키즈카페",
+"게스트하우스",
+"카페"
+],
+"keywords": [
+"교통",
+"대단지",
+"커뮤니티",
+"생활편의"
+],
+"link": "https://realty.daangn.com/complexes/10783107",
+"photo": ""
+},
+{
+"id": "456385b",
+"name": "보라매SK뷰",
+"area": "신길",
+"areas": [
+"신길"
+],
+"address": "서울 영등포구 여의대방로35가길 19 (신길동 4958)",
+"households": 1546,
+"bcr": 19,
+"far": 264,
+"moveIn": "2020-01",
+"facilities": [
+"헬스장",
+"놀이터",
+"노인정",
+"도서관",
+"골프장",
+"GX룸",
+"배드민턴장",
+"카페"
+],
+"keywords": [
+"교통",
+"신축",
+"대단지",
+"브랜드단지"
+],
+"link": "https://realty.daangn.com/complexes/10778060",
+"photo": ""
+},
+{
+"id": "1bfcc42",
+"name": "힐스테이트클래시안",
+"area": "신길",
+"areas": [
+"신길"
+],
+"address": "서울 영등포구 신길로28길 9 (신길동 4969)",
+"households": 1476,
+"bcr": 17,
+"far": 255,
+"moveIn": "2020-10",
+"facilities": [
+"헬스장",
+"놀이터",
+"노인정",
+"도서관",
+"골프장",
+"사우나",
+"GX룸",
+"키즈카페",
+"카페"
+],
+"keywords": [
+"교통",
+"신축",
+"생활편의",
+"브랜드단지"
+],
+"link": "https://realty.daangn.com/complexes/10780160",
+"photo": ""
+},
+{
+"id": "71e64ab",
+"name": "신길센트럴자이",
+"area": "신길",
+"areas": [
+"신길"
+],
+"address": "서울 영등포구 신길로29길 17 (신길동 4964)",
+"households": 1008,
+"bcr": 22,
+"far": 266,
+"moveIn": "2020-02",
+"facilities": [
+"헬스장",
+"놀이터",
+"노인정",
+"도서관",
+"골프장",
+"배드민턴장",
+"카페"
+],
+"keywords": [
+"교통",
+"신축",
+"공원",
+"브랜드단지"
+],
+"link": "https://realty.daangn.com/complexes/10780138",
+"photo": ""
+},
+{
+"id": "9cf94e4",
+"name": "래미안프레비뉴",
+"area": "신길",
+"areas": [
+"신길"
+],
+"address": "서울 영등포구 가마산로 442 (신길동 4945)",
+"households": 949,
+"bcr": 18,
+"far": 232,
+"moveIn": "2015-12",
+"facilities": [
+"헬스장",
+"놀이터",
+"노인정",
+"골프장",
+"사우나",
+"카페"
+],
+"keywords": [
+"생활편의",
+"공원",
+"브랜드단지"
+],
+"link": "https://realty.daangn.com/complexes/10784093",
+"photo": ""
+},
+{
+"id": "265542f",
+"name": "더샵파크프레스티지",
+"area": "신길",
+"areas": [
+"신길"
+],
+"address": "서울 영등포구 가마산로79길 37 (신길동 4974)",
+"households": 799,
+"bcr": 20,
+"far": 251,
+"moveIn": "2022-07",
+"facilities": [
+"헬스장",
+"놀이터",
+"노인정",
+"도서관",
+"골프장",
+"사우나",
+"키즈카페"
+],
+"keywords": [
+"신축",
+"공원",
+"브랜드단지"
+],
+"link": "https://realty.daangn.com/complexes/10782246",
+"photo": ""
+},
+{
+"id": "9cfb421",
+"name": "신길파크자이",
+"area": "신길",
+"areas": [
+"신길"
+],
+"address": "서울 영등포구 신길로28길 25 (신길동 4967)",
+"households": 641,
+"bcr": 18,
+"far": 254,
+"moveIn": "2020-12",
+"facilities": [
+"헬스장",
+"놀이터",
+"노인정",
+"도서관",
+"골프장",
+"사우나",
+"GX룸",
+"입주민회의실",
+"배드민턴장",
+"카페"
+],
+"keywords": [
+"교통",
+"신축",
+"커뮤니티",
+"브랜드단지"
+],
+"link": "https://realty.daangn.com/complexes/10780141",
+"photo": ""
+},
+{
+"id": "6590bb8",
+"name": "신길센트럴아이파크",
+"area": "신길",
+"areas": [
+"신길"
+],
+"address": "서울 영등포구 가마산로 426 (신길동)",
+"households": 612,
+"bcr": 21,
+"far": 255,
+"moveIn": "2019-02",
+"facilities": [
+"헬스장",
+"놀이터",
+"노인정",
+"도서관",
+"골프장",
+"GX룸"
+],
+"keywords": [
+"신축",
+"생활편의",
+"브랜드단지"
+],
+"link": "https://realty.daangn.com/complexes/10784133",
+"photo": ""
+},
+{
+"id": "72f5e28",
+"name": "아크로리버하임",
+"area": "흑석",
+"areas": [
+"흑석"
+],
+"address": "서울 동작구 현충로 52 (흑석동 341)",
+"households": 1073,
+"bcr": 30,
+"far": 205,
+"moveIn": "2018-11",
+"facilities": [
+"헬스장",
+"놀이터",
+"노인정",
+"골프장",
+"사우나",
+"GX룸",
+"게스트하우스",
+"배드민턴장",
+"카페"
+],
+"keywords": [
+"교통",
+"생활편의",
+"브랜드단지"
+],
+"link": "https://realty.daangn.com/complexes/10760814",
+"photo": ""
+},
+{
+"id": "c16efcd",
+"name": "흑석자이",
+"area": "흑석",
+"areas": [
+"흑석"
+],
+"address": "서울 동작구 서달로 90 (흑석동 343)",
+"households": 1772,
+"bcr": 23,
+"far": 244,
+"moveIn": "2023-02",
+"facilities": [
+"수영장",
+"헬스장",
+"놀이터",
+"노인정",
+"도서관",
+"골프장",
+"사우나",
+"GX룸",
+"게스트하우스",
+"카페"
+],
+"keywords": [
+"신축",
+"대단지",
+"커뮤니티",
+"교육환경"
+],
+"link": "https://realty.daangn.com/complexes/10760866",
+"photo": ""
+},
+{
+"id": "d38bbe4",
+"name": "롯데캐슬에듀포레",
+"area": "흑석",
+"areas": [
+"흑석"
+],
+"address": "서울 동작구 서달로 123 (흑석동 340)",
+"households": 545,
+"bcr": 21,
+"far": 239,
+"moveIn": "2018-11",
+"facilities": [
+"헬스장",
+"놀이터",
+"노인정",
+"도서관",
+"골프장"
+],
+"keywords": [
+"교육환경",
+"생활편의",
+"브랜드단지"
+],
+"link": "https://realty.daangn.com/complexes/10760856",
+"photo": ""
+},
+{
+"id": "5965b9f",
+"name": "흑석한강푸르지오",
+"area": "흑석",
+"areas": [
+"흑석"
+],
+"address": "서울 동작구 흑석한강로 27 (흑석동 336)",
+"households": 863,
+"bcr": 22,
+"far": 222,
+"moveIn": "2012-07",
+"facilities": [
+"헬스장",
+"놀이터",
+"노인정",
+"도서관",
+"골프장"
+],
+"keywords": [
+"생활편의",
+"교육환경",
+"브랜드단지"
+],
+"link": "https://realty.daangn.com/complexes/10760585",
+"photo": ""
+},
+{
+"id": "e8e66ad",
+"name": "흑석한강센트레빌1차",
+"area": "흑석",
+"areas": [
+"흑석"
+],
+"address": "서울 동작구 흑석한강로 12 (흑석동 335)",
+"households": 655,
+"bcr": 22,
+"far": 230,
+"moveIn": "2011-03",
+"facilities": [
+"헬스장",
+"놀이터",
+"노인정",
+"도서관",
+"골프장",
+"GX룸"
+],
+"keywords": [
+"교통",
+"생활편의",
+"브랜드단지"
+],
+"link": "https://realty.daangn.com/complexes/10760584",
+"photo": ""
+},
+{
+"id": "4bed0d4",
+"name": "흑석한강센트레빌2차",
+"area": "흑석",
+"areas": [
+"흑석"
+],
+"address": "서울 동작구 서달로 91 (흑석동 339)",
+"households": 963,
+"bcr": 19,
+"far": 221,
+"moveIn": "2012-12",
+"facilities": [
+"헬스장",
+"놀이터",
+"북카페",
+"노인정",
+"도서관",
+"골프장",
+"야외 운동시설"
+],
+"keywords": [
+"교육환경",
+"공원",
+"브랜드단지"
+],
+"link": "https://realty.daangn.com/complexes/10760865",
+"photo": ""
+},
+{
+"id": "be36d2e",
+"name": "마포그랑자이",
+"area": "대흥",
+"areas": [
+"대흥"
+],
+"address": "서울 마포구 대흥로 175 (대흥동 806)",
+"households": 1248,
+"bcr": 26,
+"far": 256,
+"moveIn": "2020-02",
+"facilities": [
+"수영장",
+"헬스장",
+"놀이터",
+"노인정",
+"도서관",
+"골프장",
+"사우나",
+"GX룸",
+"카페"
+],
+"keywords": [
+"교통",
+"신축",
+"커뮤니티",
+"생활편의"
+],
+"link": "https://realty.daangn.com/complexes/10891087",
+"photo": ""
+},
+{
+"id": "43dd20f",
+"name": "마포태영",
+"area": "대흥",
+"areas": [
+"대흥"
+],
+"address": "서울 마포구 독막로 266 (대흥동 660)",
+"households": 1992,
+"bcr": 22,
+"far": 344,
+"moveIn": "1999-11",
+"facilities": [
+"헬스장",
+"놀이터",
+"노인정"
+],
+"keywords": [
+"교통",
+"대단지",
+"공원",
+"생활편의"
+],
+"link": "https://realty.daangn.com/complexes/10891028",
+"photo": ""
+},
+{
+"id": "d789f0d",
+"name": "마포자이2차",
+"area": "대흥",
+"areas": [
+"대흥"
+],
+"address": "서울 마포구 서강대길 40 (대흥동 804)",
+"households": 558,
+"bcr": 16,
+"far": 247,
+"moveIn": "2014-03",
+"facilities": [
+"헬스장",
+"놀이터",
+"노인정",
+"도서관",
+"골프장"
+],
+"keywords": [
+"교통",
+"공원",
+"교육환경",
+"브랜드단지"
+],
+"link": "https://realty.daangn.com/complexes/10890308",
+"photo": ""
+},
+{
+"id": "c28f0ea",
+"name": "마포아이파크포레",
+"area": "대흥",
+"areas": [
+"대흥"
+],
+"address": "서울 마포구 광성로 17 (신수동 462)",
+"households": 1015,
+"bcr": 17,
+"far": 290,
+"moveIn": "2019-08",
+"facilities": [
+"헬스장",
+"놀이터",
+"노인정",
+"골프장",
+"사우나",
+"카페"
+],
+"keywords": [
+"교통",
+"신축",
+"공원",
+"브랜드단지"
+],
+"link": "https://realty.daangn.com/complexes/10887718",
+"photo": ""
+},
+{
+"id": "55ca0da",
+"name": "마포프레스티지자이",
+"area": "대흥",
+"areas": [
+"대흥"
+],
+"address": "서울 마포구 대흥로24길 24 (염리동 532)",
+"households": 1694,
+"bcr": 19,
+"far": 251,
+"moveIn": "2021-03",
+"facilities": [
+"수영장",
+"헬스장",
+"놀이터",
+"노인정",
+"골프장",
+"사우나",
+"게스트하우스",
+"카페"
+],
+"keywords": [
+"교통",
+"신축",
+"대단지",
+"커뮤니티"
+],
+"link": "https://realty.daangn.com/complexes/10890196",
+"photo": ""
+},
+{
+"id": "6d9a30d",
+"name": "래미안길음센터피스",
+"area": "길음",
+"areas": [
+"길음"
+],
+"address": "서울 성북구 숭인로 50 (길음동 1288)",
+"households": 2352,
+"bcr": 21,
+"far": 299,
+"moveIn": "2019-02",
+"facilities": [
+"헬스장",
+"놀이터",
+"노인정",
+"골프장",
+"키즈카페",
+"게스트하우스",
+"카페"
+],
+"keywords": [
+"교통",
+"신축",
+"대단지",
+"공원"
+],
+"link": "https://realty.daangn.com/complexes/11017231",
+"photo": ""
+},
+{
+"id": "6a51945",
+"name": "롯데캐슬클라시아",
+"area": "길음",
+"areas": [
+"길음"
+],
+"address": "서울 성북구 숭인로8길 80 (길음동 1289)",
+"households": 2029,
+"bcr": 17,
+"far": 239,
+"moveIn": "2022-01",
+"facilities": [
+"헬스장",
+"놀이터",
+"노인정",
+"도서관",
+"골프장",
+"사우나",
+"게스트하우스",
+"카페"
+],
+"keywords": [
+"신축",
+"대단지",
+"공원",
+"브랜드단지"
+],
+"link": "https://realty.daangn.com/complexes/11016574",
+"photo": ""
+},
+{
+"id": "1d93fc9",
+"name": "길음동부센트레빌",
+"area": "길음",
+"areas": [
+"길음"
+],
+"address": "서울 성북구 숭인로2길 61 (길음동 1278)",
+"households": 1377,
+"bcr": 21,
+"far": 269,
+"moveIn": "2003-03",
+"facilities": [
+"헬스장",
+"놀이터",
+"노인정",
+"도서관",
+"골프장"
+],
+"keywords": [
+"공원",
+"교육환경",
+"브랜드단지"
+],
+"link": "https://realty.daangn.com/complexes/20826813",
+"photo": ""
+},
+{
+"id": "520a906",
+"name": "길음뉴타운2단지푸르지오",
+"area": "길음",
+"areas": [
+"길음"
+],
+"address": "서울 성북구 길음로 119 (길음동 1280)",
+"households": 1634,
+"bcr": 17,
+"far": 254,
+"moveIn": "2005-04",
+"facilities": [
+"헬스장",
+"놀이터",
+"노인정",
+"도서관"
+],
+"keywords": [
+"대단지",
+"교육환경",
+"브랜드단지"
+],
+"link": "https://realty.daangn.com/complexes/11017198",
+"photo": ""
+},
+{
+"id": "fb31cbb",
+"name": "길음뉴타운8단지래미안",
+"area": "길음",
+"areas": [
+"길음"
+],
+"address": "서울 성북구 길음로 33 (길음동 1284)",
+"households": 1497,
+"bcr": 19,
+"far": 223,
+"moveIn": "2010-06",
+"facilities": [
+"헬스장",
+"놀이터",
+"노인정",
+"도서관",
+"골프장",
+"사우나"
+],
+"keywords": [
+"교육환경",
+"생활편의",
+"브랜드단지"
+],
+"link": "https://realty.daangn.com/complexes/11017203",
+"photo": ""
+},
+{
+"id": "4475953",
+"name": "길음뉴타운4단지e편한세상",
+"area": "길음",
+"areas": [
+"길음"
+],
+"address": "서울 성북구 길음로 118 (길음동 1281)",
+"households": 1605,
+"bcr": 19,
+"far": 246,
+"moveIn": "2005-04",
+"facilities": [
+"헬스장",
+"놀이터",
+"노인정",
+"도서관",
+"골프장"
+],
+"keywords": [
+"대단지",
+"교육환경",
+"생활편의",
+"브랜드단지"
+],
+"link": "https://realty.daangn.com/complexes/20826819",
+"photo": ""
+},
+{
+"id": "edbb6d4",
+"name": "길음뉴타운6단지래미안",
+"area": "길음",
+"areas": [
+"길음"
+],
+"address": "서울 성북구 길음로 16 (길음동 1283)",
+"households": 977,
+"bcr": 14,
+"far": 233,
+"moveIn": "2007-07",
+"facilities": [
+"헬스장",
+"놀이터",
+"노인정"
+],
+"keywords": [
+"교통",
+"생활편의",
+"브랜드단지"
+],
+"link": "https://realty.daangn.com/complexes/11017204",
+"photo": ""
+},
+{
+"id": "799ee31",
+"name": "길음뉴타운9단지래미안",
+"area": "길음",
+"areas": [
+"길음"
+],
+"address": "서울 성북구 길음로9길 50 (길음동 1286)",
+"households": 1012,
+"bcr": 22,
+"far": 241,
+"moveIn": "2010-09",
+"facilities": [
+"헬스장",
+"놀이터",
+"노인정",
+"골프장"
+],
+"keywords": [
+"생활편의",
+"대단지",
+"브랜드단지"
+],
+"link": "https://realty.daangn.com/complexes/20826815",
+"photo": ""
+},
+{
+"id": "5ce6048",
+"name": "마포래미안푸르지오",
+"area": "아현·공덕",
+"areas": [
+"아현·공덕"
+],
+"address": "서울 마포구 마포대로 195 (아현동 777)",
+"households": 3885,
+"bcr": 20,
+"far": 259,
+"moveIn": "2014-09",
+"facilities": [
+"헬스장",
+"놀이터",
+"노인정",
+"골프장",
+"사우나",
+"게스트하우스"
+],
+"keywords": [
+"교통",
+"대단지",
+"공원",
+"교육환경"
+],
+"link": "https://realty.daangn.com/complexes/10895293",
+"photo": ""
+},
+{
+"id": "5abad17",
+"name": "마포더클래시",
+"area": "아현·공덕",
+"areas": [
+"아현·공덕"
+],
+"address": "서울 마포구 신촌로28길 50 (아현동 804)",
+"households": 1419,
+"bcr": 18,
+"far": 249,
+"moveIn": "2022-11",
+"facilities": [
+"헬스장",
+"놀이터",
+"북카페",
+"노인정",
+"도서관",
+"골프장",
+"사우나",
+"키즈카페",
+"게스트하우스",
+"입주민회의실",
+"카페"
+],
+"keywords": [
+"교통",
+"신축",
+"커뮤니티",
+"공원"
+],
+"link": "https://realty.daangn.com/complexes/10894647",
+"photo": ""
+},
+{
+"id": "2fd105c",
+"name": "공덕자이",
+"area": "아현·공덕",
+"areas": [
+"아현·공덕"
+],
+"address": "서울 마포구 마포대로24길 16 (아현동 800)",
+"households": 1164,
+"bcr": 21,
+"far": 232,
+"moveIn": "2015-04",
+"facilities": [
+"수영장",
+"헬스장",
+"놀이터",
+"노인정",
+"도서관",
+"골프장",
+"사우나"
+],
+"keywords": [
+"교통",
+"커뮤니티",
+"공원",
+"교육환경"
+],
+"link": "https://realty.daangn.com/complexes/20826725",
+"photo": ""
+},
+{
+"id": "24e7b8f",
+"name": "마포센트럴아이파크",
+"area": "아현·공덕",
+"areas": [
+"아현·공덕"
+],
+"address": "서울 마포구 마포대로 246 (아현동 802)",
+"households": 497,
+"bcr": 18,
+"far": 270,
+"moveIn": "2017-11",
+"facilities": [
+"헬스장",
+"놀이터",
+"노인정",
+"도서관",
+"골프장",
+"카페"
+],
+"keywords": [
+"교통",
+"공원",
+"교육환경",
+"생활편의"
+],
+"link": "https://realty.daangn.com/complexes/10895269",
+"photo": ""
+},
+{
+"id": "d8d5e1c",
+"name": "래미안공덕5차",
+"area": "아현·공덕",
+"areas": [
+"아현·공덕"
+],
+"address": "서울 마포구 마포대로 173-15 (공덕동 469)",
+"households": 794,
+"bcr": 24,
+"far": 233,
+"moveIn": "2011-02",
+"facilities": [
+"헬스장",
+"놀이터",
+"노인정",
+"도서관",
+"키즈카페"
+],
+"keywords": [
+"교통",
+"생활편의",
+"브랜드단지"
+],
+"link": "https://realty.daangn.com/complexes/10894345",
+"photo": ""
+},
+{
+"id": "c7064f1",
+"name": "래미안공덕4차",
+"area": "아현·공덕",
+"areas": [
+"아현·공덕"
+],
+"address": "서울 마포구 마포대로11길 50 (공덕동 464)",
+"households": 597,
+"bcr": 15,
+"far": 199,
+"moveIn": "2005-11",
+"facilities": [
+"헬스장",
+"놀이터",
+"노인정"
+],
+"keywords": [
+"생활편의",
+"교육환경",
+"브랜드단지"
+],
+"link": "https://realty.daangn.com/complexes/10894106",
+"photo": ""
+},
+{
+"id": "54ad5b3",
+"name": "래미안공덕3차",
+"area": "아현·공덕",
+"areas": [
+"아현·공덕"
+],
+"address": "서울 마포구 마포대로7길 22 (공덕동 457)",
+"households": 616,
+"bcr": 14,
+"far": 228,
+"moveIn": "2004-08",
+"facilities": [
+"헬스장",
+"놀이터",
+"노인정"
+],
+"keywords": [
+"교통",
+"교육환경",
+"브랜드단지"
+],
+"link": "https://realty.daangn.com/complexes/10893950",
+"photo": ""
+},
+{
+"id": "c627c31",
+"name": "삼성래미안공덕2차",
+"area": "아현·공덕",
+"areas": [
+"아현·공덕"
+],
+"address": "서울 마포구 마포대로20길 26 (공덕동 43)",
+"households": 683,
+"bcr": 17,
+"far": 251,
+"moveIn": "2004-06",
+"facilities": [
+"놀이터",
+"노인정"
+],
+"keywords": [
+"교통",
+"교육환경",
+"브랜드단지"
+],
+"link": "https://realty.daangn.com/complexes/20826722",
+"photo": ""
+},
+{
+"id": "31e5ca4",
+"name": "공덕삼성",
+"area": "아현·공덕",
+"areas": [
+"아현·공덕"
+],
+"address": "서울 마포구 마포대로 115-8 (공덕동 371)",
+"households": 651,
+"bcr": 18,
+"far": 266,
+"moveIn": "1999-10",
+"facilities": [
+"헬스장",
+"놀이터",
+"노인정"
+],
+"keywords": [
+"교통",
+"교육환경",
+"생활편의"
+],
+"link": "https://realty.daangn.com/complexes/20826723",
+"photo": ""
+},
+{
+"id": "a0904da",
+"name": "신공덕삼성래미안1차",
+"area": "아현·공덕",
+"areas": [
+"아현·공덕"
+],
+"address": "서울 마포구 백범로37길 12 (신공덕동 155)",
+"households": 834,
+"bcr": 19,
+"far": 287,
+"moveIn": "2000-08",
+"facilities": [
+"헬스장",
+"놀이터",
+"노인정"
+],
+"keywords": [
+"교통",
+"교육환경",
+"브랜드단지"
+],
+"link": "https://realty.daangn.com/complexes/20826715",
+"photo": ""
+},
+{
+"id": "82c77b9",
+"name": "공덕SK리더스뷰",
+"area": "아현·공덕",
+"areas": [
+"아현·공덕"
+],
+"address": "서울 마포구 백범로31길 7 (공덕동 479)",
+"households": 472,
+"bcr": 46,
+"far": 480,
+"moveIn": "2020-08",
+"facilities": [
+"헬스장",
+"놀이터",
+"노인정",
+"골프장"
+],
+"keywords": [
+"교통",
+"신축",
+"브랜드단지"
+],
+"link": "https://realty.daangn.com/complexes/20826720",
+"photo": ""
+},
+{
+"id": "de6a21d",
+"name": "래미안트리베라1차",
+"area": "미아",
+"areas": [
+"미아"
+],
+"address": "서울 강북구 삼양로19길 25 (미아동 813)",
+"households": 1247,
+"bcr": 19,
+"far": 228,
+"moveIn": "2010-05",
+"facilities": [
+"헬스장",
+"놀이터",
+"노인정",
+"도서관",
+"골프장",
+"배드민턴장"
+],
+"keywords": [
+"교육환경",
+"생활편의",
+"브랜드단지"
+],
+"link": "https://realty.daangn.com/complexes/10996918",
+"photo": ""
+},
+{
+"id": "7c402f5",
+"name": "삼성래미안트리베라2차",
+"area": "미아",
+"areas": [
+"미아"
+],
+"address": "서울 강북구 삼양로27길 19 (미아동 812)",
+"households": 1330,
+"bcr": 15,
+"far": 239,
+"moveIn": "2010-05",
+"facilities": [
+"헬스장",
+"놀이터",
+"노인정",
+"도서관",
+"골프장",
+"GX룸",
+"배드민턴장"
+],
+"keywords": [
+"교통",
+"생활편의",
+"브랜드단지"
+],
+"link": "https://realty.daangn.com/complexes/10996316",
+"photo": ""
+},
+{
+"id": "e83161e",
+"name": "두산위브트레지움",
+"area": "미아",
+"areas": [
+"미아"
+],
+"address": "서울 강북구 삼양로27길 95 (미아동 811)",
+"households": 1370,
+"bcr": 19,
+"far": 223,
+"moveIn": "2011-10",
+"facilities": [
+"헬스장",
+"놀이터",
+"노인정",
+"도서관",
+"골프장"
+],
+"keywords": [
+"교통",
+"교육환경",
+"생활편의"
+],
+"link": "https://realty.daangn.com/complexes/10996299",
+"photo": ""
+},
+{
+"id": "ccabdb4",
+"name": "경남아너스빌",
+"area": "미아",
+"areas": [
+"미아"
+],
+"address": "서울 강북구 오패산로30길 30 (미아동 1356)",
+"households": 860,
+"bcr": 20,
+"far": 287,
+"moveIn": "2003-06",
+"facilities": [
+"놀이터",
+"노인정",
+"배드민턴장",
+"농구장"
+],
+"keywords": [
+"생활편의",
+"교육환경",
+"공원"
+],
+"link": "https://realty.daangn.com/complexes/10992176",
+"photo": ""
+},
+{
+"id": "232ad3c",
+"name": "꿈의숲롯데캐슬",
+"area": "미아",
+"areas": [
+"미아"
+],
+"address": "서울 강북구 오현로 56 (미아동 4)",
+"households": 615,
+"bcr": 22,
+"far": 188,
+"moveIn": "2017-02",
+"facilities": [
+"헬스장",
+"놀이터",
+"북카페",
+"노인정",
+"도서관",
+"골프장",
+"사우나",
+"GX룸"
+],
+"keywords": [
+"생활편의",
+"교육환경",
+"브랜드단지"
+],
+"link": "https://realty.daangn.com/complexes/11000829",
+"photo": ""
+},
+{
+"id": "af442a3",
+"name": "송천센트레빌",
+"area": "미아",
+"areas": [
+"미아"
+],
+"address": "서울 강북구 숭인로 39 (미아동 461)",
+"households": 376,
+"bcr": 21,
+"far": 213,
+"moveIn": "2010-09",
+"facilities": [
+"헬스장",
+"놀이터",
+"노인정",
+"도서관"
+],
+"keywords": [
+"교통",
+"생활편의",
+"브랜드단지"
+],
+"link": "https://kbland.kr/se/c/16148",
+"photo": ""
+},
+{
+"id": "5a5e99c",
+"name": "SK북한산시티",
+"area": "미아",
+"areas": [
+"미아"
+],
+"address": "서울 강북구 솔샘로 174 (미아동 1353)",
+"households": 3830,
+"bcr": 17,
+"far": 271,
+"moveIn": "2001-11",
+"facilities": [
+"헬스장",
+"놀이터",
+"노인정",
+"골프장",
+"농구장"
+],
+"keywords": [
+"교통",
+"대단지",
+"교육환경",
+"브랜드단지"
+],
+"link": "https://realty.daangn.com/complexes/20826787",
+"photo": ""
+},
+{
+"id": "515aa4f",
+"name": "벽산라이브파크",
+"area": "미아",
+"areas": [
+"미아"
+],
+"address": "서울 강북구 솔샘로 159 (미아동 1354)",
+"households": 1585,
+"bcr": 16,
+"far": 231,
+"moveIn": "2002-08",
+"facilities": [
+"놀이터",
+"노인정"
+],
+"keywords": [
+"교통",
+"대단지",
+"교육환경"
+],
+"link": "https://realty.daangn.com/complexes/20826791",
+"photo": ""
+},
+{
+"id": "1260dd3",
+"name": "꿈의숲해링턴플레이스",
+"area": "미아",
+"areas": [
+"미아"
+],
+"address": "서울 강북구 오현로 45 (미아동 1369)",
+"households": 1028,
+"bcr": 27,
+"far": 217,
+"moveIn": "2019-09",
+"facilities": [
+"헬스장",
+"놀이터",
+"노인정",
+"도서관",
+"골프장",
+"사우나"
+],
+"keywords": [
+"신축",
+"공원",
+"교육환경"
+],
+"link": "https://realty.daangn.com/complexes/11000830",
+"photo": ""
+},
+{
+"id": "15fd456",
+"name": "삼각산아이원",
+"area": "미아",
+"areas": [
+"미아"
+],
+"address": "서울 강북구 삼양로19길 113 (미아동 1357)",
+"households": 1344,
+"bcr": 16,
+"far": 256,
+"moveIn": "2003-12",
+"facilities": [
+"헬스장",
+"놀이터",
+"노인정",
+"도서관",
+"골프장",
+"야외 운동시설"
+],
+"keywords": [
+"교육환경",
+"대단지"
+],
+"link": "https://realty.daangn.com/complexes/20826788",
+"photo": ""
+},
+{
+"id": "c54f960",
+"name": "북서울자이폴라리스",
+"area": "미아",
+"areas": [
+"미아"
+],
+"address": "서울 강북구 삼양로58길 29 (미아동 1374)",
+"households": 1045,
+"bcr": 23,
+"far": 222,
+"moveIn": "2024-08",
+"facilities": [
+"헬스장",
+"놀이터",
+"노인정",
+"도서관",
+"골프장",
+"GX룸"
+],
+"keywords": [
+"교통",
+"신축",
+"생활편의",
+"브랜드단지"
+],
+"link": "https://realty.daangn.com/complexes/10995035",
+"photo": ""
+},
+{
+"id": "ad0a637",
+"name": "미아동부센트레빌",
+"area": "미아",
+"areas": [
+"미아"
+],
+"address": "서울 강북구 숭인로7가길 37 (미아동 474)",
+"households": 480,
+"bcr": 22,
+"far": 234,
+"moveIn": "2006-04",
+"facilities": [
+"놀이터",
+"노인정"
+],
+"keywords": [
+"교통",
+"교육환경",
+"브랜드단지"
+],
+"link": "https://realty.daangn.com/complexes/10992390",
+"photo": ""
+},
+{
+"id": "3715ff7",
+"name": "헬리오시티",
+"area": "가락",
+"areas": [
+"가락"
+],
+"address": "서울 송파구 송파대로 345 (가락동 913)",
+"households": 9510,
+"bcr": 19,
+"far": 285,
+"moveIn": "2018-12",
+"facilities": [
+"수영장",
+"헬스장",
+"놀이터",
+"노인정",
+"도서관",
+"골프장",
+"사우나",
+"게스트하우스",
+"조식 서비스",
+"카페"
+],
+"keywords": [
+"교통",
+"대단지",
+"커뮤니티"
+],
+"link": "https://realty.daangn.com/complexes/10667600",
+"photo": ""
+},
+{
+"id": "73f7a07",
+"name": "가락쌍용1차",
+"area": "가락",
+"areas": [
+"가락"
+],
+"address": "서울 송파구 동남로 193 (가락동 140)",
+"households": 2064,
+"bcr": 23,
+"far": 343,
+"moveIn": "1997-03",
+"facilities": [
+"헬스장",
+"놀이터",
+"노인정"
+],
+"keywords": [
+"교통",
+"대단지",
+"공원",
+"교육환경"
+],
+"link": "https://realty.daangn.com/complexes/10667566",
+"photo": ""
+},
+{
+"id": "17a5a8f",
+"name": "래미안파크팰리스",
+"area": "가락",
+"areas": [
+"가락"
+],
+"address": "서울 송파구 동남로 225 (가락동 165)",
+"households": 919,
+"bcr": 16,
+"far": 249,
+"moveIn": "2007-11",
+"facilities": [
+"헬스장",
+"놀이터",
+"노인정",
+"도서관"
+],
+"keywords": [
+"교통",
+"공원",
+"교육환경",
+"브랜드단지"
+],
+"link": "https://realty.daangn.com/complexes/10667549",
+"photo": ""
+},
+{
+"id": "f5599c8",
+"name": "가락금호",
+"area": "가락",
+"areas": [
+"가락"
+],
+"address": "서울 송파구 송파대로32길 15 (가락동 95-1)",
+"households": 915,
+"bcr": 22,
+"far": 397,
+"moveIn": "1997-08",
+"facilities": [
+"놀이터",
+"노인정"
+],
+"keywords": [
+"교통",
+"생활편의"
+],
+"link": "https://realty.daangn.com/complexes/10666364",
+"photo": ""
+},
+{
+"id": "7b7ca86",
+"name": "가락우성1차",
+"area": "가락",
+"areas": [
+"가락"
+],
+"address": "서울 송파구 송파대로32길 8 (가락동 96-1)",
+"households": 838,
+"bcr": null,
+"far": 210,
+"moveIn": "1986-12",
+"facilities": [
+"놀이터",
+"노인정"
+],
+"keywords": [
+"교통",
+"생활편의",
+"교육환경"
+],
+"link": "https://realty.daangn.com/complexes/10666366",
+"photo": ""
+},
+{
+"id": "210001a",
+"name": "여의도시범",
+"area": "여의도",
+"areas": [
+"여의도"
+],
+"address": "서울 영등포구 63로 45 (여의도동 50)",
+"households": 1584,
+"bcr": null,
+"far": null,
+"moveIn": "1971-12",
+"facilities": [
+"놀이터",
+"노인정"
+],
+"keywords": [
+"대단지",
+"공원",
+"생활편의"
+],
+"link": "https://realty.daangn.com/complexes/10792189",
+"photo": ""
+},
+{
+"id": "e311736",
+"name": "여의도삼부",
+"area": "여의도",
+"areas": [
+"여의도"
+],
+"address": "서울 영등포구 국제금융로7길 15, 27 (여의도동 30-2, 30-3)",
+"households": 866,
+"bcr": null,
+"far": null,
+"moveIn": "1975-12",
+"facilities": [
+"놀이터",
+"노인정"
+],
+"keywords": [
+"교통",
+"생활편의",
+"교육환경"
+],
+"link": "https://realty.daangn.com/complexes/10792160",
+"photo": ""
+},
+{
+"id": "8dba3b5",
+"name": "여의도광장",
+"area": "여의도",
+"areas": [
+"여의도"
+],
+"address": "서울 영등포구 여의나루로 7, 12 (여의도동 28, 38-1)",
+"households": 744,
+"bcr": 15,
+"far": 183,
+"moveIn": "1978-07",
+"facilities": [
+"놀이터",
+"노인정"
+],
+"keywords": [
+"교통",
+"공원",
+"교육환경"
+],
+"link": "https://realty.daangn.com/complexes/10792276",
+"photo": ""
+},
+{
+"id": "a1b7e7f",
+"name": "여의도미성",
+"area": "여의도",
+"areas": [
+"여의도"
+],
+"address": "서울 영등포구 의사당대로 110 (여의도동 37-1)",
+"households": 577,
+"bcr": 13,
+"far": null,
+"moveIn": "1978-05",
+"facilities": [
+"놀이터",
+"노인정"
+],
+"keywords": [
+"교통",
+"교육환경",
+"생활편의"
+],
+"link": "https://realty.daangn.com/complexes/10792333",
+"photo": ""
+},
+{
+"id": "ae39fea",
+"name": "롯데캐슬엠파이어",
+"area": "여의도",
+"areas": [
+"여의도"
+],
+"address": "서울 영등포구 의사당대로 127",
+"households": 406,
+"bcr": 48,
+"far": 942,
+"moveIn": "2005-05",
+"facilities": [
+"헬스장",
+"놀이터",
+"노인정",
+"골프장",
+"사우나"
+],
+"keywords": [
+"교통",
+"생활편의",
+"브랜드단지"
+],
+"link": "https://realty.daangn.com/complexes/10792331",
+"photo": ""
+},
+{
+"id": "a3aa193",
+"name": "여의도자이",
+"area": "여의도",
+"areas": [
+"여의도"
+],
+"address": "서울 영등포구 여의동로3길 10 (여의도동 47)",
+"households": 580,
+"bcr": 20,
+"far": 549,
+"moveIn": "2008-04",
+"facilities": [
+"헬스장",
+"놀이터",
+"노인정",
+"골프장",
+"야외 운동시설"
+],
+"keywords": [
+"교통",
+"공원",
+"생활편의",
+"브랜드단지"
+],
+"link": "https://kbland.kr/c/15364",
+"photo": ""
+},
+{
+"id": "966df4f",
+"name": "은마",
+"area": "대치",
+"areas": [
+"대치"
+],
+"address": "서울 강남구 삼성로 212 (대치동 316)",
+"households": 4424,
+"bcr": 20,
+"far": 204,
+"moveIn": "1979-08",
+"facilities": [
+"놀이터",
+"노인정"
+],
+"keywords": [
+"교통",
+"대단지",
+"교육환경",
+"생활편의"
+],
+"link": "https://realty.daangn.com/complexes/10689421",
+"photo": ""
+},
+{
+"id": "2be8291",
+"name": "한보미도맨션",
+"area": "대치",
+"areas": [
+"대치"
+],
+"address": "서울 강남구 삼성로 150 (대치동 511)",
+"households": 2436,
+"bcr": 15,
+"far": 179,
+"moveIn": "1983-11",
+"facilities": [
+"놀이터",
+"노인정"
+],
+"keywords": [
+"교통",
+"대단지",
+"교육환경",
+"생활편의"
+],
+"link": "https://realty.daangn.com/complexes/10689427",
+"photo": ""
+},
+{
+"id": "0619bb4",
+"name": "래미안대치팰리스",
+"area": "대치",
+"areas": [
+"대치"
+],
+"address": "서울 강남구 삼성로51길 37 (대치동 1027)",
+"households": 1608,
+"bcr": 15,
+"far": 258,
+"moveIn": "2015-09",
+"facilities": [
+"수영장",
+"헬스장",
+"놀이터",
+"북카페",
+"노인정",
+"골프장",
+"사우나",
+"키즈카페",
+"게스트하우스",
+"조식 서비스",
+"카페"
+],
+"keywords": [
+"대단지",
+"커뮤니티",
+"생활편의",
+"브랜드단지"
+],
+"link": "https://realty.daangn.com/complexes/10688908",
+"photo": ""
+},
+{
+"id": "71e5166",
+"name": "대치선경",
+"area": "대치",
+"areas": [
+"대치"
+],
+"address": "서울 강남구 삼성로 151 (대치동 506)",
+"households": 1034,
+"bcr": 13,
+"far": 179,
+"moveIn": "1983-12",
+"facilities": [
+"놀이터",
+"노인정"
+],
+"keywords": [
+"교통",
+"공원",
+"교육환경"
+],
+"link": "https://realty.daangn.com/complexes/10689426",
+"photo": ""
+},
+{
+"id": "930db22",
+"name": "대치삼성1차",
+"area": "대치",
+"areas": [
+"대치"
+],
+"address": "서울 강남구 도곡로78길 22 (대치동 1014-3)",
+"households": 960,
+"bcr": 21,
+"far": 261,
+"moveIn": "2000-07",
+"facilities": [
+"놀이터",
+"노인정"
+],
+"keywords": [
+"교통",
+"생활편의",
+"교육환경"
+],
+"link": "https://realty.daangn.com/complexes/10688941",
+"photo": ""
+},
+{
+"id": "e21ff25",
+"name": "대치동부센트레빌",
+"area": "대치",
+"areas": [
+"대치"
+],
+"address": "서울 강남구 선릉로 206 (대치동 670)",
+"households": 805,
+"bcr": 19,
+"far": 297,
+"moveIn": "2005-01",
+"facilities": [
+"헬스장",
+"놀이터",
+"노인정",
+"도서관"
+],
+"keywords": [
+"교통",
+"교육환경",
+"브랜드단지"
+],
+"link": "https://realty.daangn.com/complexes/10689351",
+"photo": ""
+},
+{
+"id": "914ecf5",
+"name": "대치아이파크",
+"area": "대치",
+"areas": [
+"대치"
+],
+"address": "서울 강남구 선릉로 222",
+"households": 768,
+"bcr": 14,
+"far": 274,
+"moveIn": "2008-06",
+"facilities": [
+"놀이터",
+"노인정"
+],
+"keywords": [
+"교통",
+"생활편의",
+"브랜드단지"
+],
+"link": "https://realty.daangn.com/complexes/10689350",
+"photo": ""
+},
+{
+"id": "4ce5643",
+"name": "마곡엠밸리6단지",
+"area": "마곡",
+"areas": [
+"마곡"
+],
+"address": "서울 강서구 마곡서1로 100 (마곡동 743)",
+"households": 1466,
+"bcr": 25,
+"far": 201,
+"moveIn": "2014-06",
+"facilities": [
+"헬스장",
+"놀이터",
+"노인정",
+"도서관",
+"게스트하우스"
+],
+"keywords": [
+"교통",
+"공원",
+"교육환경"
+],
+"link": "https://realty.daangn.com/complexes/10839560",
+"photo": ""
+},
+{
+"id": "fc21daf",
+"name": "마곡엠밸리7단지",
+"area": "마곡",
+"areas": [
+"마곡"
+],
+"address": "서울 강서구 마곡서로 133 (마곡동 743-4)",
+"households": 1004,
+"bcr": 28,
+"far": 238,
+"moveIn": "2014-06",
+"facilities": [
+"헬스장",
+"놀이터",
+"노인정",
+"도서관"
+],
+"keywords": [
+"교통",
+"공원",
+"생활편의"
+],
+"link": "https://realty.daangn.com/complexes/10839577",
+"photo": ""
+},
+{
+"id": "9bbbe70",
+"name": "마곡엠밸리8단지",
+"area": "마곡",
+"areas": [
+"마곡"
+],
+"address": "서울 강서구 마곡서1로 81 (마곡동 741)",
+"households": 531,
+"bcr": 23,
+"far": 179,
+"moveIn": "2016-07",
+"facilities": [
+"헬스장",
+"놀이터",
+"노인정"
+],
+"keywords": [
+"교통",
+"교육환경",
+"생활편의"
+],
+"link": "https://realty.daangn.com/complexes/10839561",
+"photo": ""
+},
+{
+"id": "2bfa252",
+"name": "마곡엠밸리9단지",
+"area": "마곡",
+"areas": [
+"마곡"
+],
+"address": "서울 강서구 공항대로 103 (마곡동 744)",
+"households": 1529,
+"bcr": 29,
+"far": 220,
+"moveIn": "2021-02",
+"facilities": [
+"헬스장",
+"놀이터",
+"노인정",
+"도서관",
+"게스트하우스"
+],
+"keywords": [
+"교통",
+"신축",
+"대단지",
+"교육환경"
+],
+"link": "https://realty.daangn.com/complexes/10839776",
+"photo": ""
+},
+{
+"id": "69c9230",
+"name": "마곡엠밸리14단지",
+"area": "마곡",
+"areas": [
+"마곡"
+],
+"address": "서울 강서구 마곡중앙로 33 (마곡동 750)",
+"households": 1270,
+"bcr": 27,
+"far": 206,
+"moveIn": "2014-05",
+"facilities": [
+"헬스장",
+"놀이터",
+"노인정",
+"게스트하우스"
+],
+"keywords": [
+"교통",
+"공원",
+"교육환경"
+],
+"link": "https://realty.daangn.com/complexes/10839651",
+"photo": ""
+},
+{
+"id": "fe9c60e",
+"name": "마곡엠밸리15단지",
+"area": "마곡",
+"areas": [
+"마곡"
+],
+"address": "서울 강서구 마곡중앙로 36 (마곡동 751)",
+"households": 1171,
+"bcr": 26,
+"far": 205,
+"moveIn": "2014-05",
+"facilities": [
+"헬스장",
+"놀이터",
+"노인정",
+"게스트하우스"
+],
+"keywords": [
+"교통",
+"생활편의",
+"교육환경"
+],
+"link": "https://realty.daangn.com/complexes/10839650",
+"photo": ""
+},
+{
+"id": "fbb9790",
+"name": "마곡13단지힐스테이트마스터",
+"area": "마곡",
+"areas": [
+"마곡"
+],
+"address": "서울 강서구 마곡중앙1로 71 (마곡동 748)",
+"households": 1194,
+"bcr": 24,
+"far": 219,
+"moveIn": "2017-04",
+"facilities": [
+"헬스장",
+"놀이터",
+"노인정",
+"도서관",
+"골프장",
+"GX룸",
+"키즈카페",
+"카페"
+],
+"keywords": [
+"공원",
+"생활편의",
+"브랜드단지"
+],
+"link": "https://realty.daangn.com/complexes/10839548",
+"photo": ""
+}
+]

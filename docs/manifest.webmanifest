@@ -1,0 +1,14 @@
+{
+  "name": "비교파트",
+  "short_name": "비교파트",
+  "description": "실거주 데이터로 아파트 단지를 비교하는 서비스",
+  "lang": "ko",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f5f6f9",
+  "theme_color": "#ffffff",
+  "icons": [
+    { "src": "images/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "images/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
